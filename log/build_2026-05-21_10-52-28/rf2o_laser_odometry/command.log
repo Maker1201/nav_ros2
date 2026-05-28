@@ -1,0 +1,6 @@
+Invoking command in '/home/dog/nav_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/rf2o_laser_odometry
+Invoked command in '/home/dog/nav_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/rf2o_laser_odometry
+Invoking command in '/home/dog/nav_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/rf2o_laser_odometry -- -j6 -l6
+Invoked command in '/home/dog/nav_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/rf2o_laser_odometry -- -j6 -l6
+Invoking command in '/home/dog/nav_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/rf2o_laser_odometry
+Invoked command in '/home/dog/nav_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/rf2o_laser_odometry

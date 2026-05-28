@@ -1,0 +1,8 @@
+source;share/bpx_driver/hook/cmake_prefix_path.ps1
+source;share/bpx_driver/hook/cmake_prefix_path.dsv
+source;share/bpx_driver/hook/cmake_prefix_path.sh
+source;share/bpx_driver/local_setup.bash
+source;share/bpx_driver/local_setup.dsv
+source;share/bpx_driver/local_setup.ps1
+source;share/bpx_driver/local_setup.sh
+source;share/bpx_driver/local_setup.zsh

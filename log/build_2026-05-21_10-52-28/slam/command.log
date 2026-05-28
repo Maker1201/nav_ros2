@@ -1,0 +1,6 @@
+Invoking command in '/home/dog/nav_ros/build/slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/slam -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/slam
+Invoked command in '/home/dog/nav_ros/build/slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/slam -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/slam
+Invoking command in '/home/dog/nav_ros/build/slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/slam -- -j6 -l6
+Invoked command in '/home/dog/nav_ros/build/slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/slam -- -j6 -l6
+Invoking command in '/home/dog/nav_ros/build/slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/slam
+Invoked command in '/home/dog/nav_ros/build/slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/slam

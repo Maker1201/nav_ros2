@@ -1,0 +1,6 @@
+Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/nav2 -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/nav2
+Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/nav2 -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/nav2
+Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/nav2 -- -j6 -l6
+Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/nav2 -- -j6 -l6
+Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/nav2
+Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/nav2

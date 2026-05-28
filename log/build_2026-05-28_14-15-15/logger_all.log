@@ -1,0 +1,184 @@
+[0.207s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'nav2']
+[0.207s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['nav2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaef284f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaeefbf70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaeefbf70>>)
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.546s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dog/nav_ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'ros'
+[0.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bpx_driver' with type 'ros.ament_cmake' and name 'bpx_driver'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2' with type 'ros.ament_cmake' and name 'nav2'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam' with type 'ros.ament_cmake' and name 'slam'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.658s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bpx_driver' in 'src/bpx_driver'
+[0.658s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rf2o_laser_odometry' in 'src/rf2o_laser_odometry'
+[0.658s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam' in 'src/slam'
+[0.658s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sllidar_ros2' in 'src/sllidar_ros2'
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.661s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dog/nav_ros/install/nav2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.662s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dog/nav_ros/install/nav2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.664s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dog/nav_ros/install
+[0.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[0.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'cmake_args' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'cmake_target' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.754s] DEBUG:colcon.colcon_core.verb:Building package 'nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dog/nav_ros/build/nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dog/nav_ros/install/nav2', 'merge_install': False, 'path': '/home/dog/nav_ros/src/nav2', 'symlink_install': False, 'test_result_base': None}
+[0.754s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dog/nav_ros/src/nav2' with build type 'ament_cmake'
+[0.757s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dog/nav_ros/src/nav2'
+[0.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/nav2 -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/nav2
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/nav2 -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/nav2
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/nav2 -- -j6 -l6
+[2.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/nav2 -- -j6 -l6
+[2.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/nav2
+[2.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2)
+[2.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/nav2
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2' for CMake module files
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2' for CMake config files
+[2.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2', 'cmake_prefix_path')
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/nav2/share/nav2/hook/cmake_prefix_path.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dog/nav_ros/install/nav2/share/nav2/hook/cmake_prefix_path.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/nav2/share/nav2/hook/cmake_prefix_path.sh'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/bin'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/lib/pkgconfig/nav2.pc'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/lib/python3.10/site-packages'
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/bin'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.ps1'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dog/nav_ros/install/nav2/share/nav2/package.dsv'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.sh'
+[2.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.bash'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.zsh'
+[2.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dog/nav_ros/install/nav2/share/colcon-core/packages/nav2)
+[2.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2)
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2' for CMake module files
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2' for CMake config files
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2', 'cmake_prefix_path')
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/nav2/share/nav2/hook/cmake_prefix_path.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dog/nav_ros/install/nav2/share/nav2/hook/cmake_prefix_path.dsv'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/nav2/share/nav2/hook/cmake_prefix_path.sh'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/bin'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/lib/pkgconfig/nav2.pc'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/lib/python3.10/site-packages'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/nav2/bin'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.ps1'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dog/nav_ros/install/nav2/share/nav2/package.dsv'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.sh'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.bash'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/nav2/share/nav2/package.zsh'
+[2.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dog/nav_ros/install/nav2/share/colcon-core/packages/nav2)
+[2.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.144s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.144s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.144s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.145s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.ps1'
+[2.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dog/nav_ros/install/_local_setup_util_ps1.py'
+[2.150s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.sh'
+[2.155s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dog/nav_ros/install/_local_setup_util_sh.py'
+[2.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.sh'
+[2.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.bash'
+[2.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.zsh'
+[2.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.zsh'

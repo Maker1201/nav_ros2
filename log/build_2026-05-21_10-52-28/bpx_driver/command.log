@@ -1,0 +1,6 @@
+Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/bpx_driver -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/bpx_driver
+Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/bpx_driver -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/bpx_driver
+Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/bpx_driver -- -j6 -l6
+Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/bpx_driver -- -j6 -l6
+Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/bpx_driver
+Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/bpx_driver

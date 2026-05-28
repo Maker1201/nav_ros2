@@ -1,0 +1,14 @@
+bpx_driver_node:
+  ros__parameters:
+    robot_ip: "10.21.20.1"
+    # robot_ip: "10.38.160.85"
+    state_upload_rate_hz: 100
+    motion_command_rate_hz: 50
+    state_publish_rate_hz: 50
+    cmd_vel_timeout_sec: 0.5
+    # Frame IDs
+    odom_frame: "odom"
+    base_frame: "base_link"
+    imu_frame: "imu_link"
+    # Set to false when using robot_localization EKF to publish odom->base_link TF
+    publish_odom_tf: true

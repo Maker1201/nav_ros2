@@ -1,0 +1,74 @@
+[0.037s] Invoking command in '/home/dog/nav_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/rf2o_laser_odometry
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.367s] -- The CXX compiler identification is GNU 11.4.0
+[0.385s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.553s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.559s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.734s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.734s] -- Detecting CXX compile features
+[0.735s] -- Detecting CXX compile features - done
+[0.745s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.302s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.401s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.412s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.433s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.600s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.608s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.783s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.838s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.923s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.942s] -- Looking for pthread.h
+[2.092s] -- Looking for pthread.h - found
+[2.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.236s] -- Found Threads: TRUE  
+[2.368s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.398s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.431s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.434s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.434s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.668s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.700s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.752s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.936s] -- Configuring done
+[3.021s] -- Generating done
+[3.045s] -- Build files have been written to: /home/dog/nav_ros/build/rf2o_laser_odometry
+[3.113s] Invoked command in '/home/dog/nav_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/rf2o_laser_odometry
+[3.121s] Invoking command in '/home/dog/nav_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/rf2o_laser_odometry -- -j6 -l6
+[3.367s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[3.370s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[3.382s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[154.736s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[154.742s] [100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[155.198s] [100%] Built target rf2o_laser_odometry
+[157.627s] [100%] Built target rf2o_laser_odometry_node
+[157.693s] Invoked command in '/home/dog/nav_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/rf2o_laser_odometry -- -j6 -l6
+[157.729s] Invoking command in '/home/dog/nav_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/rf2o_laser_odometry
+[157.744s] -- Install configuration: ""
+[157.745s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[157.767s] -- Set runtime path of "/home/dog/nav_ros/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[157.767s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[157.768s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[157.769s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[157.770s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[157.773s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[157.773s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[157.773s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[157.774s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[157.774s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[157.774s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[157.775s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[157.775s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[157.776s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[157.776s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[157.777s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[157.777s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[157.777s] -- Installing: /home/dog/nav_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[157.795s] Invoked command in '/home/dog/nav_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/rf2o_laser_odometry

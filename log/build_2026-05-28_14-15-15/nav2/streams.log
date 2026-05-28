@@ -1,0 +1,49 @@
+[0.020s] Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/nav2 -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/nav2
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.333s] -- Detecting C compiler ABI info - done
+[0.357s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.834s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.038s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.195s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.196s] -- Added test 'lint_cmake' to check CMake code style
+[1.197s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.199s] -- Added test 'xmllint' to check XML markup files
+[1.201s] -- Configuring done
+[1.208s] -- Generating done
+[1.211s] -- Build files have been written to: /home/dog/nav_ros/build/nav2
+[1.220s] Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dog/nav_ros/src/nav2 -DCMAKE_INSTALL_PREFIX=/home/dog/nav_ros/install/nav2
+[1.225s] Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/nav2 -- -j6 -l6
+[1.293s] Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/nav2 -- -j6 -l6
+[1.312s] Invoking command in '/home/dog/nav_ros/build/nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/nav2
+[1.325s] -- Install configuration: ""
+[1.325s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/launch
+[1.326s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/launch/cartographer_nav.launch.py
+[1.326s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/config
+[1.326s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/config/nav2_params.yaml
+[1.326s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/config/my_cartographer_2d.lua
+[1.326s] -- Installing: /home/dog/nav_ros/install/nav2/share/ament_index/resource_index/package_run_dependencies/nav2
+[1.326s] -- Installing: /home/dog/nav_ros/install/nav2/share/ament_index/resource_index/parent_prefix_path/nav2
+[1.327s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/environment/ament_prefix_path.sh
+[1.327s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/environment/ament_prefix_path.dsv
+[1.327s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/environment/path.sh
+[1.328s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/environment/path.dsv
+[1.328s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.bash
+[1.328s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.sh
+[1.328s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.zsh
+[1.329s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.dsv
+[1.329s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/package.dsv
+[1.329s] -- Installing: /home/dog/nav_ros/install/nav2/share/ament_index/resource_index/packages/nav2
+[1.329s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/cmake/nav2Config.cmake
+[1.330s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/cmake/nav2Config-version.cmake
+[1.330s] -- Installing: /home/dog/nav_ros/install/nav2/share/nav2/package.xml
+[1.335s] Invoked command in '/home/dog/nav_ros/build/nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/nav2

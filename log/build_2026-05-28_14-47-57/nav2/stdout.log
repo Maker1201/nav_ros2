@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/launch
+-- Installing: /home/dog/nav_ros/install/nav2/share/nav2/launch/cartographer_nav.launch.py
+-- Installing: /home/dog/nav_ros/install/nav2/share/nav2/launch/cartographer_localization.launch.py
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/config
+-- Installing: /home/dog/nav_ros/install/nav2/share/nav2/config/nav2_params.yaml
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/config/my_cartographer_2d.lua
+-- Installing: /home/dog/nav_ros/install/nav2/share/nav2/config/my_localization.lua
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/ament_index/resource_index/package_run_dependencies/nav2
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/ament_index/resource_index/parent_prefix_path/nav2
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/environment/path.sh
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/environment/path.dsv
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.bash
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.sh
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.zsh
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/local_setup.dsv
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/package.dsv
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/ament_index/resource_index/packages/nav2
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/cmake/nav2Config.cmake
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/cmake/nav2Config-version.cmake
+-- Up-to-date: /home/dog/nav_ros/install/nav2/share/nav2/package.xml
