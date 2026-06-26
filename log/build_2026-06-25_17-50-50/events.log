@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (-) JobUnselected: {'identifier': 'bpx_ekf_odom_ros'}
+[0.000782] (-) JobUnselected: {'identifier': 'bpx_sdk_examples'}
+[0.000972] (-) JobUnselected: {'identifier': 'nav2'}
+[0.001223] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001689] (-) JobUnselected: {'identifier': 'slam'}
+[0.001897] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002448] (bpx_driver) JobQueued: {'identifier': 'bpx_driver', 'dependencies': OrderedDict()}
+[0.002658] (bpx_driver) JobStarted: {'identifier': 'bpx_driver'}
+[0.015690] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'cmake'}
+[0.017111] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'build'}
+[0.018521] (bpx_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dog/nav_ros/build/bpx_driver', '--', '-j6', '-l6'], 'cwd': '/home/dog/nav_ros/build/bpx_driver', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'dog'), ('SSH_CLIENT', '10.207.82.83 39422 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dog'), ('OLDPWD', '/home/dog'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '185'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/dog/nav_ros/build/bpx_driver'), ('SSH_CONNECTION', '10.207.82.83 39422 10.207.82.156 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099910] (-) TimerEvent: {}
+[0.119961] (bpx_driver) StdoutLine: {'line': b'[100%] Built target bpx_driver_node\n'}
+[0.138738] (bpx_driver) CommandEnded: {'returncode': 0}
+[0.140152] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'install'}
+[0.155149] (bpx_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dog/nav_ros/build/bpx_driver'], 'cwd': '/home/dog/nav_ros/build/bpx_driver', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'dog'), ('SSH_CLIENT', '10.207.82.83 39422 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dog'), ('OLDPWD', '/home/dog'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '185'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/dog/nav_ros/build/bpx_driver'), ('SSH_CONNECTION', '10.207.82.83 39422 10.207.82.156 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.168464] (bpx_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.168983] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/bpx_driver_node\n'}
+[0.169451] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/libbpx_sdk_aarch64.so\n'}
+[0.169627] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch\n'}
+[0.170892] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch/bpx_driver_ekf.launch.py\n'}
+[0.171516] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch/bpx_driver.launch.py\n'}
+[0.171680] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config\n'}
+[0.171826] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config/bpx_params.yaml\n'}
+[0.173158] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx\n'}
+[0.173328] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf\n'}
+[0.173465] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf/bpx.urdf\n'}
+[0.173593] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes\n'}
+[0.173717] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/hip.mtl\n'}
+[0.173837] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/calf.mtl\n'}
+[0.173957] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/hip.obj\n'}
+[0.174571] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/bpx_body.obj\n'}
+[0.175857] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/calf.obj\n'}
+[0.176332] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/bpx_body.mtl\n'}
+[0.176683] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/l_thigh.obj\n'}
+[0.177165] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/l_thigh.mtl\n'}
+[0.177559] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/r_thigh.obj\n'}
+[0.178160] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/r_thigh.mtl\n'}
+[0.178801] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/package_run_dependencies/bpx_driver\n'}
+[0.179503] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/parent_prefix_path/bpx_driver\n'}
+[0.180208] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/ament_prefix_path.sh\n'}
+[0.181082] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/ament_prefix_path.dsv\n'}
+[0.182446] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/path.sh\n'}
+[0.183075] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/path.dsv\n'}
+[0.183768] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.bash\n'}
+[0.184358] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.sh\n'}
+[0.185693] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.zsh\n'}
+[0.187235] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.dsv\n'}
+[0.188454] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.dsv\n'}
+[0.190417] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/packages/bpx_driver\n'}
+[0.191556] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/cmake/bpx_driverConfig.cmake\n'}
+[0.195231] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/cmake/bpx_driverConfig-version.cmake\n'}
+[0.197522] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.xml\n'}
+[0.197785] (bpx_driver) CommandEnded: {'returncode': 0}
+[0.200607] (-) TimerEvent: {}
+[0.218524] (bpx_driver) JobEnded: {'identifier': 'bpx_driver', 'rc': 0}
+[0.219661] (-) EventReactorShutdown: {}

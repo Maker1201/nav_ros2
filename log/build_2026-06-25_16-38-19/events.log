@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (-) JobUnselected: {'identifier': 'bpx_sdk_examples'}
+[0.000481] (-) JobUnselected: {'identifier': 'nav2'}
+[0.000919] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001100] (-) JobUnselected: {'identifier': 'slam'}
+[0.001357] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001450] (bpx_driver) JobQueued: {'identifier': 'bpx_driver', 'dependencies': OrderedDict()}
+[0.001527] (bpx_driver) JobStarted: {'identifier': 'bpx_driver'}
+[0.017620] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'cmake'}
+[0.019316] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'build'}
+[0.020546] (bpx_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dog/nav_ros/build/bpx_driver', '--', '-j6', '-l6'], 'cwd': '/home/dog/nav_ros/build/bpx_driver', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'dog'), ('SSH_CLIENT', '10.207.82.83 50452 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dog'), ('OLDPWD', '/home/dog'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '131'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/dog/nav_ros/build/bpx_driver'), ('SSH_CONNECTION', '10.207.82.83 50452 10.207.82.156 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099600] (-) TimerEvent: {}
+[0.189678] (bpx_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o\n'}
+[0.199709] (-) TimerEvent: {}
+[0.300043] (-) TimerEvent: {}
+[0.400395] (-) TimerEvent: {}
+[0.500809] (-) TimerEvent: {}
+[0.601151] (-) TimerEvent: {}
+[0.701532] (-) TimerEvent: {}
+[0.801992] (-) TimerEvent: {}
+[0.902428] (-) TimerEvent: {}
+[1.002905] (-) TimerEvent: {}
+[1.103374] (-) TimerEvent: {}
+[1.203773] (-) TimerEvent: {}
+[1.304171] (-) TimerEvent: {}
+[1.404581] (-) TimerEvent: {}
+[1.505003] (-) TimerEvent: {}
+[1.605389] (-) TimerEvent: {}
+[1.705799] (-) TimerEvent: {}
+[1.806174] (-) TimerEvent: {}
+[1.906539] (-) TimerEvent: {}
+[2.006947] (-) TimerEvent: {}
+[2.107405] (-) TimerEvent: {}
+[2.207838] (-) TimerEvent: {}
+[2.308222] (-) TimerEvent: {}
+[2.408586] (-) TimerEvent: {}
+[2.508998] (-) TimerEvent: {}
+[2.609385] (-) TimerEvent: {}
+[2.709936] (-) TimerEvent: {}
+[2.810405] (-) TimerEvent: {}
+[2.910841] (-) TimerEvent: {}
+[3.011279] (-) TimerEvent: {}
+[3.111707] (-) TimerEvent: {}
+[3.212154] (-) TimerEvent: {}
+[3.312599] (-) TimerEvent: {}
+[3.413108] (-) TimerEvent: {}
+[3.513601] (-) TimerEvent: {}
+[3.614102] (-) TimerEvent: {}
+[3.714567] (-) TimerEvent: {}
+[3.815286] (-) TimerEvent: {}
+[3.915738] (-) TimerEvent: {}
+[4.016214] (-) TimerEvent: {}
+[4.116950] (-) TimerEvent: {}
+[4.217434] (-) TimerEvent: {}
+[4.318040] (-) TimerEvent: {}
+[4.418513] (-) TimerEvent: {}
+[4.518935] (-) TimerEvent: {}
+[4.619322] (-) TimerEvent: {}
+[4.719696] (-) TimerEvent: {}
+[4.820131] (-) TimerEvent: {}
+[4.920552] (-) TimerEvent: {}
+[5.020943] (-) TimerEvent: {}
+[5.121330] (-) TimerEvent: {}
+[5.221890] (-) TimerEvent: {}
+[5.322446] (-) TimerEvent: {}
+[5.422813] (-) TimerEvent: {}
+[5.523236] (-) TimerEvent: {}
+[5.623690] (-) TimerEvent: {}
+[5.724228] (-) TimerEvent: {}
+[5.824673] (-) TimerEvent: {}
+[5.860595] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp: In member function \xe2\x80\x98void BpxDriverNode::uprightCallback(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)\xe2\x80\x99:\n'}
+[5.861315] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:412:21: error: \xe2\x80\x98class bpx_sdk::MotionLevelControl\xe2\x80\x99 has no member named \xe2\x80\x98setUpright\xe2\x80\x99\n'}
+[5.861534] (bpx_driver) StderrLine: {'line': b'  412 |         if (motion_.setUpright()) {\n'}
+[5.861697] (bpx_driver) StderrLine: {'line': b'      |                     ^~~~~~~~~~\n'}
+[5.924825] (-) TimerEvent: {}
+[6.025206] (-) TimerEvent: {}
+[6.125598] (-) TimerEvent: {}
+[6.226027] (-) TimerEvent: {}
+[6.326443] (-) TimerEvent: {}
+[6.426850] (-) TimerEvent: {}
+[6.527261] (-) TimerEvent: {}
+[6.627659] (-) TimerEvent: {}
+[6.728068] (-) TimerEvent: {}
+[6.828485] (-) TimerEvent: {}
+[6.928904] (-) TimerEvent: {}
+[7.029323] (-) TimerEvent: {}
+[7.129759] (-) TimerEvent: {}
+[7.230164] (-) TimerEvent: {}
+[7.330581] (-) TimerEvent: {}
+[7.431002] (-) TimerEvent: {}
+[7.531421] (-) TimerEvent: {}
+[7.631836] (-) TimerEvent: {}
+[7.732262] (-) TimerEvent: {}
+[7.832678] (-) TimerEvent: {}
+[7.933088] (-) TimerEvent: {}
+[8.033500] (-) TimerEvent: {}
+[8.133925] (-) TimerEvent: {}
+[8.234335] (-) TimerEvent: {}
+[8.334753] (-) TimerEvent: {}
+[8.435167] (-) TimerEvent: {}
+[8.535580] (-) TimerEvent: {}
+[8.635990] (-) TimerEvent: {}
+[8.736394] (-) TimerEvent: {}
+[8.836805] (-) TimerEvent: {}
+[8.937416] (-) TimerEvent: {}
+[9.037863] (-) TimerEvent: {}
+[9.138300] (-) TimerEvent: {}
+[9.238715] (-) TimerEvent: {}
+[9.339135] (-) TimerEvent: {}
+[9.439583] (-) TimerEvent: {}
+[9.540026] (-) TimerEvent: {}
+[9.640434] (-) TimerEvent: {}
+[9.740839] (-) TimerEvent: {}
+[9.841253] (-) TimerEvent: {}
+[9.941666] (-) TimerEvent: {}
+[10.042143] (-) TimerEvent: {}
+[10.142571] (-) TimerEvent: {}
+[10.242986] (-) TimerEvent: {}
+[10.343526] (-) TimerEvent: {}
+[10.444089] (-) TimerEvent: {}
+[10.544496] (-) TimerEvent: {}
+[10.644912] (-) TimerEvent: {}
+[10.745385] (-) TimerEvent: {}
+[10.845856] (-) TimerEvent: {}
+[10.946277] (-) TimerEvent: {}
+[11.046692] (-) TimerEvent: {}
+[11.147102] (-) TimerEvent: {}
+[11.247521] (-) TimerEvent: {}
+[11.347940] (-) TimerEvent: {}
+[11.448372] (-) TimerEvent: {}
+[11.549033] (-) TimerEvent: {}
+[11.649447] (-) TimerEvent: {}
+[11.749877] (-) TimerEvent: {}
+[11.850301] (-) TimerEvent: {}
+[11.950736] (-) TimerEvent: {}
+[12.051183] (-) TimerEvent: {}
+[12.151657] (-) TimerEvent: {}
+[12.252108] (-) TimerEvent: {}
+[12.352557] (-) TimerEvent: {}
+[12.453173] (-) TimerEvent: {}
+[12.553602] (-) TimerEvent: {}
+[12.654025] (-) TimerEvent: {}
+[12.754453] (-) TimerEvent: {}
+[12.854889] (-) TimerEvent: {}
+[12.955312] (-) TimerEvent: {}
+[13.055726] (-) TimerEvent: {}
+[13.156157] (-) TimerEvent: {}
+[13.256566] (-) TimerEvent: {}
+[13.352050] (bpx_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bpx_driver_node.dir/build.make:76: CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o] Error 1\n'}
+[13.352907] (bpx_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bpx_driver_node.dir/all] Error 2\n'}
+[13.353412] (bpx_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.356670] (-) TimerEvent: {}
+[13.360322] (bpx_driver) CommandEnded: {'returncode': 2}
+[13.402389] (bpx_driver) JobEnded: {'identifier': 'bpx_driver', 'rc': 2}
+[13.413118] (-) EventReactorShutdown: {}

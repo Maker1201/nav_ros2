@@ -684,6 +684,15 @@ CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__type_support.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
@@ -718,4 +727,5 @@ CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o: \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
  /home/dog/nav_ros/src/bpx_driver/third_party/bpx_sdk/include/motion_level_control.h \
  /home/dog/nav_ros/src/bpx_driver/third_party/bpx_sdk/include/request_robot_state.h \
- /home/dog/nav_ros/src/bpx_driver/third_party/bpx_sdk/include/bpx_sdk_config.h
+ /home/dog/nav_ros/src/bpx_driver/third_party/bpx_sdk/include/bpx_sdk_config.h \
+ /home/dog/nav_ros/src/bpx_driver/third_party/bpx_sdk/include/motion_types.h

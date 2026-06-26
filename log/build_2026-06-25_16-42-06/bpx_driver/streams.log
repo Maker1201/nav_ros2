@@ -1,0 +1,45 @@
+[0.017s] Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/bpx_driver -- -j6 -l6
+[0.099s] Consolidate compiler generated dependencies of target bpx_driver_node
+[0.123s] [ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o
+[24.801s] [100%] Linking CXX executable bpx_driver_node
+[26.175s] [100%] Built target bpx_driver_node
+[26.202s] Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/bpx_driver -- -j6 -l6
+[26.222s] Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/bpx_driver
+[26.237s] -- Install configuration: ""
+[26.238s] -- Installing: /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/bpx_driver_node
+[26.252s] -- Set runtime path of "/home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/bpx_driver_node" to "$ORIGIN:/opt/ros/humble/lib"
+[26.253s] -- Installing: /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/libbpx_sdk_aarch64.so
+[26.254s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch
+[26.255s] -- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch/bpx_driver.launch.py
+[26.255s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config
+[26.256s] -- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config/bpx_params.yaml
+[26.256s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx
+[26.256s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf
+[26.258s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf/bpx.urdf
+[26.259s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes
+[26.259s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/hip.mtl
+[26.260s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/calf.mtl
+[26.260s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/hip.obj
+[26.260s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/bpx_body.obj
+[26.261s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/calf.obj
+[26.261s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/bpx_body.mtl
+[26.262s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/l_thigh.obj
+[26.262s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/l_thigh.mtl
+[26.262s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/r_thigh.obj
+[26.263s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/r_thigh.mtl
+[26.263s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/package_run_dependencies/bpx_driver
+[26.263s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/parent_prefix_path/bpx_driver
+[26.263s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/ament_prefix_path.sh
+[26.264s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/ament_prefix_path.dsv
+[26.264s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/path.sh
+[26.264s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/path.dsv
+[26.264s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.bash
+[26.265s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.sh
+[26.265s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.zsh
+[26.265s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.dsv
+[26.266s] -- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.dsv
+[26.267s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/packages/bpx_driver
+[26.267s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/cmake/bpx_driverConfig.cmake
+[26.267s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/cmake/bpx_driverConfig-version.cmake
+[26.268s] -- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.xml
+[26.268s] Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/bpx_driver

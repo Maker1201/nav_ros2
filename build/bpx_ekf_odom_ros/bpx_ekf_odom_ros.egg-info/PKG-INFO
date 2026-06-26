@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bpx-ekf-odom-ros
+Version: 0.1.0
+Summary: BPX 四足机器人 EKF 实时里程计 ROS2 节点（IMU + 腿式里程计融合）
+Home-page: UNKNOWN
+Maintainer: mai
+Maintainer-email: maiyunxi173@gmail.com
+License: MIT
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

@@ -1,0 +1,6 @@
+[console_scripts]
+csv_player = bpx_ekf_odom_ros.csv_player:main
+ekf_odom_node = bpx_ekf_odom_ros.ekf_odom_node:main
+odom_recorder = bpx_ekf_odom_ros.odom_recorder:main
+walk_measure = bpx_ekf_odom_ros.walk_measure:main
+

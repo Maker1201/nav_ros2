@@ -1,0 +1,195 @@
+[0.209s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'bpx_driver']
+[0.209s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['bpx_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ae7c190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ae53c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ae53c10>>)
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.551s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dog/nav_ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'ros'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extensions ['cmake', 'python']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(bpx_sdk_open) by extension 'python'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'bpx_sdk_open' with type 'cmake' and name 'bpx_sdk_examples'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/bpx_driver) by extension 'ros'
+[0.600s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bpx_driver' with type 'ros.ament_cmake' and name 'bpx_driver'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2' with type 'ros.ament_cmake' and name 'nav2'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam' with type 'ros.ament_cmake' and name 'slam'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.678s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bpx_sdk_examples' in 'bpx_sdk_open'
+[0.678s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav2' in 'src/nav2'
+[0.678s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rf2o_laser_odometry' in 'src/rf2o_laser_odometry'
+[0.678s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam' in 'src/slam'
+[0.678s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sllidar_ros2' in 'src/sllidar_ros2'
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'cmake_target' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'bpx_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.773s] DEBUG:colcon.colcon_core.verb:Building package 'bpx_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dog/nav_ros/build/bpx_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dog/nav_ros/install/bpx_driver', 'merge_install': False, 'path': '/home/dog/nav_ros/src/bpx_driver', 'symlink_install': False, 'test_result_base': None}
+[0.773s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.776s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dog/nav_ros/src/bpx_driver' with build type 'ament_cmake'
+[0.776s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dog/nav_ros/src/bpx_driver'
+[0.780s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/bpx_driver -- -j6 -l6
+[26.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dog/nav_ros/build/bpx_driver -- -j6 -l6
+[26.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dog/nav_ros/build/bpx_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/bpx_driver
+[26.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bpx_driver)
+[26.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dog/nav_ros/build/bpx_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dog/nav_ros/build/bpx_driver
+[26.971s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver' for CMake module files
+[26.972s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver' for CMake config files
+[26.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('bpx_driver', 'cmake_prefix_path')
+[26.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/hook/cmake_prefix_path.ps1'
+[26.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/hook/cmake_prefix_path.dsv'
+[26.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/hook/cmake_prefix_path.sh'
+[26.980s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/lib'
+[26.980s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/bin'
+[26.981s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/lib/pkgconfig/bpx_driver.pc'
+[26.981s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/lib/python3.10/site-packages'
+[26.982s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/bin'
+[26.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.ps1'
+[26.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.dsv'
+[26.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.sh'
+[26.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.bash'
+[26.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.zsh'
+[26.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dog/nav_ros/install/bpx_driver/share/colcon-core/packages/bpx_driver)
+[26.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bpx_driver)
+[26.996s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver' for CMake module files
+[26.997s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver' for CMake config files
+[26.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('bpx_driver', 'cmake_prefix_path')
+[26.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/hook/cmake_prefix_path.ps1'
+[26.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/hook/cmake_prefix_path.dsv'
+[27.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/hook/cmake_prefix_path.sh'
+[27.001s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/lib'
+[27.001s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/bin'
+[27.002s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/lib/pkgconfig/bpx_driver.pc'
+[27.002s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/lib/python3.10/site-packages'
+[27.003s] Level 1:colcon.colcon_core.environment:checking '/home/dog/nav_ros/install/bpx_driver/bin'
+[27.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.ps1'
+[27.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.dsv'
+[27.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.sh'
+[27.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.bash'
+[27.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.zsh'
+[27.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dog/nav_ros/install/bpx_driver/share/colcon-core/packages/bpx_driver)
+[27.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.010s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.012s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.ps1'
+[27.015s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dog/nav_ros/install/_local_setup_util_ps1.py'
+[27.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.ps1'
+[27.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.sh'
+[27.021s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dog/nav_ros/install/_local_setup_util_sh.py'
+[27.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.sh'
+[27.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.bash'
+[27.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.bash'
+[27.028s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dog/nav_ros/install/local_setup.zsh'
+[27.029s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dog/nav_ros/install/setup.zsh'

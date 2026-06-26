@@ -1,0 +1,28 @@
+[1.305s] Invoking command in '/home/dog/nav_ros/bpx_ekf_odom_ros': PYTHONPATH=/home/dog/nav_ros/build/bpx_ekf_odom_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bpx_ekf_odom_ros build --build-base /home/dog/nav_ros/build/bpx_ekf_odom_ros/build install --record /home/dog/nav_ros/build/bpx_ekf_odom_ros/install.log --single-version-externally-managed install_data
+[1.784s] running egg_info
+[1.785s] writing ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/PKG-INFO
+[1.786s] writing dependency_links to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/dependency_links.txt
+[1.786s] writing entry points to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/entry_points.txt
+[1.787s] writing requirements to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/requires.txt
+[1.787s] writing top-level names to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/top_level.txt
+[1.790s] reading manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'
+[1.792s] writing manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'
+[1.793s] running build
+[1.793s] running build_py
+[1.794s] running install
+[1.795s] running install_lib
+[1.799s] running install_data
+[1.799s] copying resource/bpx_ekf_odom_ros -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index/resource_index/packages
+[1.799s] copying package.xml -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros
+[1.799s] creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros/launch
+[1.800s] copying launch/ekf_odom.launch.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros/launch
+[1.800s] copying launch/ekf_odom_full.launch.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros/launch
+[1.800s] running install_egg_info
+[1.803s] Copying ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros-0.1.0-py3.10.egg-info
+[1.806s] running install_scripts
+[1.846s] Installing csv_player script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros
+[1.846s] Installing ekf_odom_node script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros
+[1.846s] Installing odom_recorder script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros
+[1.846s] Installing walk_measure script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros
+[1.847s] writing list of installed files to '/home/dog/nav_ros/build/bpx_ekf_odom_ros/install.log'
+[1.914s] Invoked command in '/home/dog/nav_ros/bpx_ekf_odom_ros' returned '0': PYTHONPATH=/home/dog/nav_ros/build/bpx_ekf_odom_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bpx_ekf_odom_ros build --build-base /home/dog/nav_ros/build/bpx_ekf_odom_ros/build install --record /home/dog/nav_ros/build/bpx_ekf_odom_ros/install.log --single-version-externally-managed install_data

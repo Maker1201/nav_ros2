@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPX 机器狗图形化编程</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 顶部工具栏 -->
+    <header id="toolbar">
+        <div class="toolbar-left">
+            <span class="logo">🐕 BPX 机器狗</span>
+            <span class="title">图形化编程</span>
+        </div>
+        <div class="toolbar-center">
+            <button id="btn-run" class="btn btn-run" title="运行程序">▶ 运行</button>
+            <button id="btn-stop" class="btn btn-stop" title="停止程序" disabled>⏹ 停止</button>
+            <button id="btn-emergency" class="btn btn-emergency" title="紧急停止（阻尼模式）">🔴 紧急停止</button>
+        </div>
+        <div class="toolbar-right">
+            <span id="connection-status" class="status disconnected">● 未连接</span>
+            <button id="btn-settings" class="btn btn-icon" title="网络设置">⚙️</button>
+            <button id="btn-save" class="btn btn-icon" title="保存程序">💾</button>
+            <button id="btn-load" class="btn btn-icon" title="加载程序">📂</button>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main id="main-content">
+        <!-- 左侧：Blockly 编辑器 -->
+        <div id="blockly-panel">
+            <div id="blockly-workspace"></div>
+        </div>
+
+        <!-- 右侧：可视化仪表盘 -->
+        <div id="dashboard-panel">
+            <!-- 状态信息卡片 -->
+            <div id="status-cards">
+                <div class="card" id="card-motion">
+                    <div class="card-title">运动状态</div>
+                    <div class="card-value" id="val-motion-state">--</div>
+                </div>
+                <div class="card" id="card-gait">
+                    <div class="card-title">步态</div>
+                    <div class="card-value" id="val-gait">--</div>
+                </div>
+                <div class="card" id="card-battery">
+                    <div class="card-title">电池</div>
+                    <div class="card-value" id="val-battery">--%</div>
+                    <div class="battery-bar"><div id="battery-fill" class="battery-fill"></div></div>
+                </div>
+                <div class="card" id="card-velocity">
+                    <div class="card-title">速度 (m/s)</div>
+                    <div class="card-value" id="val-velocity">x:0 y:0 yaw:0</div>
+                </div>
+            </div>
+
+            <!-- 3D 机器狗模型 -->
+            <div id="robot-3d-container">
+                <div id="robot-3d-label">关节姿态 (3D)</div>
+                <canvas id="robot-3d-canvas"></canvas>
+            </div>
+
+            <!-- IMU 姿态 -->
+            <div id="imu-panel">
+                <div class="panel-title">IMU 姿态</div>
+                <div id="imu-values">
+                    <span>Roll: <b id="val-roll">0.00</b>°</span>
+                    <span>Pitch: <b id="val-pitch">0.00</b>°</span>
+                    <span>Yaw: <b id="val-yaw">0.00</b>°</span>
+                </div>
+            </div>
+
+            <!-- 关节角度 -->
+            <div id="joint-panel">
+                <div class="panel-title">关节角度 (°)</div>
+                <div id="joint-values">
+                    <div class="joint-leg">
+                        <span class="leg-label">左前:</span>
+                        <span id="j0">0</span>, <span id="j1">0</span>, <span id="j2">0</span>
+                    </div>
+                    <div class="joint-leg">
+                        <span class="leg-label">右前:</span>
+                        <span id="j3">0</span>, <span id="j4">0</span>, <span id="j5">0</span>
+                    </div>
+                    <div class="joint-leg">
+                        <span class="leg-label">左后:</span>
+                        <span id="j6">0</span>, <span id="j7">0</span>, <span id="j8">0</span>
+                    </div>
+                    <div class="joint-leg">
+                        <span class="leg-label">右后:</span>
+                        <span id="j9">0</span>, <span id="j10">0</span>, <span id="j11">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 温度监控 -->
+            <div id="temp-panel">
+                <div class="panel-title">温度 (°C)</div>
+                <div id="temp-bar-container">
+                    <div id="temp-bars"></div>
+                </div>
+            </div>
+
+            <!-- 控制台日志 -->
+            <div id="console-panel">
+                <div class="panel-title">控制台 <button id="btn-clear-log" class="btn-small">清空</button></div>
+                <div id="console-output"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 网络设置对话框 -->
+    <div id="settings-dialog" class="dialog-overlay" style="display:none;">
+        <div class="dialog">
+            <div class="dialog-header">
+                <span>⚙️ 通讯方式选择</span>
+                <button class="dialog-close" id="btn-close-settings">×</button>
+            </div>
+            <div class="dialog-body">
+                <!-- 第一步：选择通讯方式 -->
+                <div class="form-group">
+                    <label>选择通讯方式:</label>
+                    <div class="connection-profiles">
+                        <div class="profile-card selected" id="profile-wired" data-ip="10.21.20.1">
+                            <div class="profile-icon">🔌</div>
+                            <div class="profile-name">有线网口</div>
+                            <div class="profile-desc">通过以太网线直连机器狗</div>
+                            <div class="profile-ip">IP: 10.21.20.1</div>
+                        </div>
+                        <div class="profile-card" id="profile-wireless" data-ip="192.168.0.1">
+                            <div class="profile-icon">📶</div>
+                            <div class="profile-name">无线 WiFi</div>
+                            <div class="profile-desc">通过 WiFi 无线连接机器狗</div>
+                            <div class="profile-ip">IP: 192.168.0.1</div>
+                        </div>
+                        <div class="profile-card" id="profile-usb" data-ip="192.168.42.1">
+                            <div class="profile-icon">🔗</div>
+                            <div class="profile-name">USB 网络</div>
+                            <div class="profile-desc">通过 USB 网络共享连接</div>
+                            <div class="profile-ip">IP: 192.168.42.1</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 第二步：网络详情 -->
+                <div class="form-group">
+                    <label>机器人 IP 地址:</label>
+                    <div class="input-with-btn">
+                        <input type="text" id="input-robot-ip" value="10.21.20.1" placeholder="10.21.20.1">
+                        <button id="btn-check-ping" class="btn-small">检测连通性</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>本地网络接口:</label>
+                    <div class="input-with-btn">
+                        <select id="select-interface">
+                            <option value="auto">🔄 自动检测</option>
+                        </select>
+                        <button id="btn-refresh-interfaces" class="btn-small">刷新</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>连接状态:</label>
+                    <span id="settings-connection-status" class="status disconnected">● 未连接</span>
+                </div>
+                <div class="form-group">
+                    <label>状态上传频率 (Hz):</label>
+                    <input type="number" id="input-state-rate" value="100" min="10" max="500">
+                </div>
+                <div class="form-group">
+                    <label>指令发送频率 (Hz):</label>
+                    <input type="number" id="input-cmd-rate" value="50" min="10" max="200">
+                </div>
+
+                <hr>
+                <details>
+                    <summary>高级设置</summary>
+                    <div class="form-group">
+                        <label>UDP 状态端口:</label>
+                        <input type="number" id="input-state-port" value="9873">
+                    </div>
+                    <div class="form-group">
+                        <label>UDP 关节数据端口:</label>
+                        <input type="number" id="input-joint-port" value="7895">
+                    </div>
+                    <div class="form-group">
+                        <label>TCP 本地端口 (0=自动):</label>
+                        <input type="number" id="input-tcp-port" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Web 服务端口:</label>
+                        <input type="number" id="input-web-port" value="8080">
+                    </div>
+                </details>
+            </div>
+            <div class="dialog-footer">
+                <button id="btn-restore-defaults" class="btn">恢复默认</button>
+                <div class="dialog-footer-right">
+                    <button id="btn-disconnect-settings" class="btn btn-stop" style="display:none;">断开连接</button>
+                    <button id="btn-connect-settings" class="btn btn-run">🔌 连接</button>
+                    <button id="btn-cancel-settings" class="btn">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 隐藏的文件输入 -->
+    <input type="file" id="file-input" accept=".xml" style="display:none">
+
+    <!-- Blockly 库 -->
+    <script src="lib/blockly/blockly_compressed.js"></script>
+    <script src="lib/blockly/blocks_compressed.js"></script>
+    <script src="lib/blockly/javascript_compressed.js"></script>
+    <script src="lib/blockly/msg/zh-hans.js"></script>
+
+    <!-- Three.js -->
+    <script src="lib/three.min.js"></script>
+
+    <!-- 应用代码 -->
+    <script src="js/ws_client.js?v=4"></script>
+    <script src="js/blocks/connection.js?v=4"></script>
+    <script src="js/blocks/motion.js?v=4"></script>
+    <script src="js/blocks/sensor.js?v=4"></script>
+    <script src="js/blocks/joint.js?v=4"></script>
+    <script src="js/blocks/flow.js?v=4"></script>
+    <script src="js/generators/bpx_lang.js?v=4"></script>
+    <script src="js/dashboard/robot_3d.js?v=4"></script>
+    <script src="js/dashboard/imu_viz.js?v=4"></script>
+    <script src="js/dashboard/battery_gauge.js?v=4"></script>
+    <script src="js/app.js?v=4"></script>
+</body>
+</html>

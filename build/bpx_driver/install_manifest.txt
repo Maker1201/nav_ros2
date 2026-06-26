@@ -1,5 +1,6 @@
 /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/bpx_driver_node
 /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/libbpx_sdk_aarch64.so
+/home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch/bpx_driver_ekf.launch.py
 /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch/bpx_driver.launch.py
 /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config/bpx_params.yaml
 /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf/bpx.urdf

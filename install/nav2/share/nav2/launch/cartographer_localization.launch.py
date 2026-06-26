@@ -12,7 +12,7 @@ def generate_launch_description():
     cartographer_config_basename = 'my_localization.lua'
     
     # 刚才保存的 pbstream 地图文件的绝对路径！
-    pbstream_file_path = '/home/dog/nav_ros/src/nav2/maps/my_map.pbstream'
+    pbstream_file_path = '/home/dog/nav_ros/src/nav2/maps/map529.pbstream'
 
     return LaunchDescription([
         # 1. 启动 rf2o 激光里程计 (必须有它提供 odom->base_link)

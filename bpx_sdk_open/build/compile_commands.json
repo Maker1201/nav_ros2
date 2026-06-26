@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/dog/nav_ros/bpx_sdk_open/build",
+  "command": "/usr/bin/c++  -isystem /home/dog/nav_ros/bpx_sdk_open/include -std=c++17 -o CMakeFiles/request_robot_state_example.dir/example/request_robot_state_example.cpp.o -c /home/dog/nav_ros/bpx_sdk_open/example/request_robot_state_example.cpp",
+  "file": "/home/dog/nav_ros/bpx_sdk_open/example/request_robot_state_example.cpp"
+},
+{
+  "directory": "/home/dog/nav_ros/bpx_sdk_open/build",
+  "command": "/usr/bin/c++  -isystem /home/dog/nav_ros/bpx_sdk_open/include -std=c++17 -o CMakeFiles/motion_level_control_example.dir/example/motion_level_control_example.cpp.o -c /home/dog/nav_ros/bpx_sdk_open/example/motion_level_control_example.cpp",
+  "file": "/home/dog/nav_ros/bpx_sdk_open/example/motion_level_control_example.cpp"
+},
+{
+  "directory": "/home/dog/nav_ros/bpx_sdk_open/build",
+  "command": "/usr/bin/c++  -isystem /home/dog/nav_ros/bpx_sdk_open/include -std=c++17 -o CMakeFiles/joint_level_control_example.dir/example/joint_level_control_example.cpp.o -c /home/dog/nav_ros/bpx_sdk_open/example/joint_level_control_example.cpp",
+  "file": "/home/dog/nav_ros/bpx_sdk_open/example/joint_level_control_example.cpp"
+}
+]

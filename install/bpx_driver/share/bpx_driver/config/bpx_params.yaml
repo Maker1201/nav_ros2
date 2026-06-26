@@ -12,3 +12,5 @@ bpx_driver_node:
     imu_frame: "imu_link"
     # Set to false when using robot_localization EKF to publish odom->base_link TF
     publish_odom_tf: true
+    # EKF odometry
+    use_ekf_odom: true

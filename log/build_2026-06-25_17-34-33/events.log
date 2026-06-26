@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (-) JobUnselected: {'identifier': 'bpx_driver'}
+[0.000498] (-) JobUnselected: {'identifier': 'bpx_sdk_examples'}
+[0.000805] (-) JobUnselected: {'identifier': 'nav2'}
+[0.001314] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001574] (-) JobUnselected: {'identifier': 'slam'}
+[0.001883] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001995] (bpx_ekf_odom_ros) JobQueued: {'identifier': 'bpx_ekf_odom_ros', 'dependencies': OrderedDict()}
+[0.002084] (bpx_ekf_odom_ros) JobStarted: {'identifier': 'bpx_ekf_odom_ros'}
+[0.099246] (-) TimerEvent: {}
+[0.199614] (-) TimerEvent: {}
+[0.299974] (-) TimerEvent: {}
+[0.400477] (-) TimerEvent: {}
+[0.500826] (-) TimerEvent: {}
+[0.601161] (-) TimerEvent: {}
+[0.701520] (-) TimerEvent: {}
+[0.801932] (-) TimerEvent: {}
+[0.902333] (-) TimerEvent: {}
+[1.002726] (-) TimerEvent: {}
+[1.103151] (-) TimerEvent: {}
+[1.203531] (-) TimerEvent: {}
+[1.303951] (-) TimerEvent: {}
+[1.404392] (-) TimerEvent: {}
+[1.459825] (bpx_ekf_odom_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/bpx_ekf_odom_ros', 'build', '--build-base', '/home/dog/nav_ros/build/bpx_ekf_odom_ros/build', 'install', '--record', '/home/dog/nav_ros/build/bpx_ekf_odom_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dog/nav_ros/bpx_ekf_odom_ros', 'env': {'LANGUAGE': 'en_US:en', 'USER': 'dog', 'SSH_CLIENT': '10.207.82.83 40472 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dog', 'OLDPWD': '/home/dog', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '176', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/dog/nav_ros/build/bpx_ekf_odom_ros', 'SSH_CONNECTION': '10.207.82.83 40472 10.207.82.156 22', 'PYTHONPATH': '/home/dog/nav_ros/build/bpx_ekf_odom_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.504520] (-) TimerEvent: {}
+[1.604858] (-) TimerEvent: {}
+[1.705234] (-) TimerEvent: {}
+[1.805598] (-) TimerEvent: {}
+[1.905948] (-) TimerEvent: {}
+[1.945465] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.946528] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info\n'}
+[1.946896] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/PKG-INFO\n'}
+[1.947427] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing dependency_links to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/dependency_links.txt\n'}
+[1.947783] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing entry points to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/entry_points.txt\n'}
+[1.948042] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing requirements to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/requires.txt\n'}
+[1.948288] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing top-level names to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/top_level.txt\n'}
+[1.948592] (bpx_ekf_odom_ros) StdoutLine: {'line': b"writing manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'\n"}
+[1.951975] (bpx_ekf_odom_ros) StdoutLine: {'line': b"reading manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'\n"}
+[1.953406] (bpx_ekf_odom_ros) StdoutLine: {'line': b"writing manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'\n"}
+[1.953715] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running build\n'}
+[1.953867] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.954126] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/build/bpx_ekf_odom_ros/build\n'}
+[1.954419] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib\n'}
+[1.954642] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.954784] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/data_loader.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.955314] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/ekf_core.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.955768] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/__init__.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.956006] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/config.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.956410] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/kinematics.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.956835] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/adaptive_obs.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.957279] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/csv_player.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.957706] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/walk_measure.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.958110] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/preprocessor.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.958643] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/contact_detector.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.959132] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/ekf_odom_node.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.959573] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/odom_recorder.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.959959] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying bpx_ekf_odom_ros/run_odometry.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros\n'}
+[1.961267] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install\n'}
+[1.961876] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.963293] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.963533] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/data_loader.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.963856] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/ekf_core.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.964133] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/__init__.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.964376] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/config.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.964628] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/kinematics.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.964871] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/adaptive_obs.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.965134] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/csv_player.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.965388] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/walk_measure.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.965640] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/preprocessor.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.965945] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/contact_detector.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.966199] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/ekf_odom_node.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.966483] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/odom_recorder.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.966710] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/run_odometry.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros\n'}
+[1.967835] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/data_loader.py to data_loader.cpython-310.pyc\n'}
+[1.974853] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/ekf_core.py to ekf_core.cpython-310.pyc\n'}
+[1.978177] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/__init__.py to __init__.cpython-310.pyc\n'}
+[1.978565] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/config.py to config.cpython-310.pyc\n'}
+[1.979883] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/kinematics.py to kinematics.cpython-310.pyc\n'}
+[1.982466] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/adaptive_obs.py to adaptive_obs.cpython-310.pyc\n'}
+[1.984270] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/csv_player.py to csv_player.cpython-310.pyc\n'}
+[1.986322] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/walk_measure.py to walk_measure.cpython-310.pyc\n'}
+[1.988118] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/preprocessor.py to preprocessor.cpython-310.pyc\n'}
+[1.994686] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/contact_detector.py to contact_detector.cpython-310.pyc\n'}
+[1.997954] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/ekf_odom_node.py to ekf_odom_node.cpython-310.pyc\n'}
+[2.002347] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/odom_recorder.py to odom_recorder.cpython-310.pyc\n'}
+[2.003714] (bpx_ekf_odom_ros) StdoutLine: {'line': b'byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/run_odometry.py to run_odometry.cpython-310.pyc\n'}
+[2.005996] (-) TimerEvent: {}
+[2.007108] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.007377] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index\n'}
+[2.007748] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index/resource_index\n'}
+[2.007925] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index/resource_index/packages\n'}
+[2.008075] (bpx_ekf_odom_ros) StderrLine: {'line': b"error: can't copy 'resource/bpx_ekf_odom_ros': doesn't exist or not a regular file\n"}
+[2.062904] (bpx_ekf_odom_ros) CommandEnded: {'returncode': 1}
+[2.064195] (bpx_ekf_odom_ros) JobEnded: {'identifier': 'bpx_ekf_odom_ros', 'rc': 1}
+[2.073988] (-) EventReactorShutdown: {}

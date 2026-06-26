@@ -1,0 +1,2 @@
+Consolidate compiler generated dependencies of target bpx_driver_node
+[ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o

@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.000518] (-) JobUnselected: {'identifier': 'bpx_sdk_examples'}
+[0.001021] (-) JobUnselected: {'identifier': 'nav2'}
+[0.001245] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001551] (-) JobUnselected: {'identifier': 'slam'}
+[0.001681] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001786] (bpx_driver) JobQueued: {'identifier': 'bpx_driver', 'dependencies': OrderedDict()}
+[0.001902] (bpx_driver) JobStarted: {'identifier': 'bpx_driver'}
+[0.014071] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'cmake'}
+[0.015323] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'build'}
+[0.016681] (bpx_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dog/nav_ros/build/bpx_driver', '--', '-j6', '-l6'], 'cwd': '/home/dog/nav_ros/build/bpx_driver', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'dog'), ('SSH_CLIENT', '10.207.82.83 32782 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dog'), ('OLDPWD', '/home/dog'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/dog/nav_ros/build/bpx_driver'), ('SSH_CONNECTION', '10.207.82.83 32782 10.207.82.156 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099219] (-) TimerEvent: {}
+[0.100818] (bpx_driver) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target bpx_driver_node\n'}
+[0.124866] (bpx_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o\n'}
+[0.199404] (-) TimerEvent: {}
+[0.299850] (-) TimerEvent: {}
+[0.400306] (-) TimerEvent: {}
+[0.500782] (-) TimerEvent: {}
+[0.601236] (-) TimerEvent: {}
+[0.701657] (-) TimerEvent: {}
+[0.802104] (-) TimerEvent: {}
+[0.902601] (-) TimerEvent: {}
+[1.003089] (-) TimerEvent: {}
+[1.103547] (-) TimerEvent: {}
+[1.203966] (-) TimerEvent: {}
+[1.304390] (-) TimerEvent: {}
+[1.404890] (-) TimerEvent: {}
+[1.505329] (-) TimerEvent: {}
+[1.605805] (-) TimerEvent: {}
+[1.706269] (-) TimerEvent: {}
+[1.806736] (-) TimerEvent: {}
+[1.907190] (-) TimerEvent: {}
+[2.007639] (-) TimerEvent: {}
+[2.108073] (-) TimerEvent: {}
+[2.208551] (-) TimerEvent: {}
+[2.309009] (-) TimerEvent: {}
+[2.409454] (-) TimerEvent: {}
+[2.509882] (-) TimerEvent: {}
+[2.610328] (-) TimerEvent: {}
+[2.710779] (-) TimerEvent: {}
+[2.811221] (-) TimerEvent: {}
+[2.911660] (-) TimerEvent: {}
+[3.012118] (-) TimerEvent: {}
+[3.112588] (-) TimerEvent: {}
+[3.213076] (-) TimerEvent: {}
+[3.313561] (-) TimerEvent: {}
+[3.414031] (-) TimerEvent: {}
+[3.514486] (-) TimerEvent: {}
+[3.614934] (-) TimerEvent: {}
+[3.715397] (-) TimerEvent: {}
+[3.815881] (-) TimerEvent: {}
+[3.916357] (-) TimerEvent: {}
+[4.016858] (-) TimerEvent: {}
+[4.117334] (-) TimerEvent: {}
+[4.217831] (-) TimerEvent: {}
+[4.318313] (-) TimerEvent: {}
+[4.418800] (-) TimerEvent: {}
+[4.519279] (-) TimerEvent: {}
+[4.619753] (-) TimerEvent: {}
+[4.720219] (-) TimerEvent: {}
+[4.820718] (-) TimerEvent: {}
+[4.921183] (-) TimerEvent: {}
+[5.021673] (-) TimerEvent: {}
+[5.122125] (-) TimerEvent: {}
+[5.222573] (-) TimerEvent: {}
+[5.323078] (-) TimerEvent: {}
+[5.423541] (-) TimerEvent: {}
+[5.523955] (-) TimerEvent: {}
+[5.624374] (-) TimerEvent: {}
+[5.724873] (-) TimerEvent: {}
+[5.825343] (-) TimerEvent: {}
+[5.925756] (-) TimerEvent: {}
+[6.026160] (-) TimerEvent: {}
+[6.126534] (-) TimerEvent: {}
+[6.226912] (-) TimerEvent: {}
+[6.327344] (-) TimerEvent: {}
+[6.427757] (-) TimerEvent: {}
+[6.528184] (-) TimerEvent: {}
+[6.628654] (-) TimerEvent: {}
+[6.729078] (-) TimerEvent: {}
+[6.829500] (-) TimerEvent: {}
+[6.929945] (-) TimerEvent: {}
+[7.030388] (-) TimerEvent: {}
+[7.130835] (-) TimerEvent: {}
+[7.231327] (-) TimerEvent: {}
+[7.331810] (-) TimerEvent: {}
+[7.432277] (-) TimerEvent: {}
+[7.532752] (-) TimerEvent: {}
+[7.633218] (-) TimerEvent: {}
+[7.733695] (-) TimerEvent: {}
+[7.834181] (-) TimerEvent: {}
+[7.934660] (-) TimerEvent: {}
+[8.035116] (-) TimerEvent: {}
+[8.135578] (-) TimerEvent: {}
+[8.236067] (-) TimerEvent: {}
+[8.336585] (-) TimerEvent: {}
+[8.437062] (-) TimerEvent: {}
+[8.537519] (-) TimerEvent: {}
+[8.637967] (-) TimerEvent: {}
+[8.738430] (-) TimerEvent: {}
+[8.838877] (-) TimerEvent: {}
+[8.939335] (-) TimerEvent: {}
+[9.039789] (-) TimerEvent: {}
+[9.140207] (-) TimerEvent: {}
+[9.240684] (-) TimerEvent: {}
+[9.341149] (-) TimerEvent: {}
+[9.441591] (-) TimerEvent: {}
+[9.542035] (-) TimerEvent: {}
+[9.642462] (-) TimerEvent: {}
+[9.742877] (-) TimerEvent: {}
+[9.843322] (-) TimerEvent: {}
+[9.943798] (-) TimerEvent: {}
+[10.044237] (-) TimerEvent: {}
+[10.144700] (-) TimerEvent: {}
+[10.245144] (-) TimerEvent: {}
+[10.345614] (-) TimerEvent: {}
+[10.446081] (-) TimerEvent: {}
+[10.546519] (-) TimerEvent: {}
+[10.646991] (-) TimerEvent: {}
+[10.747455] (-) TimerEvent: {}
+[10.847923] (-) TimerEvent: {}
+[10.948378] (-) TimerEvent: {}
+[11.048823] (-) TimerEvent: {}
+[11.149249] (-) TimerEvent: {}
+[11.249704] (-) TimerEvent: {}
+[11.350174] (-) TimerEvent: {}
+[11.450660] (-) TimerEvent: {}
+[11.551130] (-) TimerEvent: {}
+[11.651595] (-) TimerEvent: {}
+[11.752066] (-) TimerEvent: {}
+[11.852541] (-) TimerEvent: {}
+[11.952990] (-) TimerEvent: {}
+[12.053434] (-) TimerEvent: {}
+[12.153887] (-) TimerEvent: {}
+[12.254361] (-) TimerEvent: {}
+[12.354847] (-) TimerEvent: {}
+[12.455317] (-) TimerEvent: {}
+[12.555705] (-) TimerEvent: {}
+[12.656161] (-) TimerEvent: {}
+[12.756632] (-) TimerEvent: {}
+[12.857057] (-) TimerEvent: {}
+[12.957512] (-) TimerEvent: {}
+[13.058018] (-) TimerEvent: {}
+[13.158426] (-) TimerEvent: {}
+[13.258882] (-) TimerEvent: {}
+[13.359382] (-) TimerEvent: {}
+[13.459868] (-) TimerEvent: {}
+[13.560309] (-) TimerEvent: {}
+[13.660781] (-) TimerEvent: {}
+[13.761230] (-) TimerEvent: {}
+[13.861679] (-) TimerEvent: {}
+[13.962107] (-) TimerEvent: {}
+[14.062544] (-) TimerEvent: {}
+[14.162984] (-) TimerEvent: {}
+[14.263426] (-) TimerEvent: {}
+[14.363872] (-) TimerEvent: {}
+[14.464327] (-) TimerEvent: {}
+[14.564760] (-) TimerEvent: {}
+[14.665177] (-) TimerEvent: {}
+[14.765597] (-) TimerEvent: {}
+[14.866031] (-) TimerEvent: {}
+[14.966468] (-) TimerEvent: {}
+[15.066908] (-) TimerEvent: {}
+[15.167333] (-) TimerEvent: {}
+[15.267771] (-) TimerEvent: {}
+[15.368201] (-) TimerEvent: {}
+[15.468664] (-) TimerEvent: {}
+[15.569094] (-) TimerEvent: {}
+[15.669547] (-) TimerEvent: {}
+[15.769972] (-) TimerEvent: {}
+[15.870399] (-) TimerEvent: {}
+[15.970806] (-) TimerEvent: {}
+[16.071241] (-) TimerEvent: {}
+[16.171684] (-) TimerEvent: {}
+[16.272127] (-) TimerEvent: {}
+[16.372592] (-) TimerEvent: {}
+[16.473067] (-) TimerEvent: {}
+[16.573498] (-) TimerEvent: {}
+[16.673919] (-) TimerEvent: {}
+[16.774395] (-) TimerEvent: {}
+[16.874874] (-) TimerEvent: {}
+[16.975331] (-) TimerEvent: {}
+[17.075749] (-) TimerEvent: {}
+[17.176178] (-) TimerEvent: {}
+[17.276680] (-) TimerEvent: {}
+[17.377091] (-) TimerEvent: {}
+[17.477511] (-) TimerEvent: {}
+[17.577979] (-) TimerEvent: {}
+[17.678422] (-) TimerEvent: {}
+[17.778956] (-) TimerEvent: {}
+[17.879463] (-) TimerEvent: {}
+[17.979912] (-) TimerEvent: {}
+[18.080344] (-) TimerEvent: {}
+[18.180796] (-) TimerEvent: {}
+[18.281211] (-) TimerEvent: {}
+[18.381647] (-) TimerEvent: {}
+[18.482077] (-) TimerEvent: {}
+[18.582511] (-) TimerEvent: {}
+[18.682958] (-) TimerEvent: {}
+[18.783402] (-) TimerEvent: {}
+[18.883769] (-) TimerEvent: {}
+[18.984107] (-) TimerEvent: {}
+[19.084481] (-) TimerEvent: {}
+[19.184875] (-) TimerEvent: {}
+[19.285284] (-) TimerEvent: {}
+[19.385684] (-) TimerEvent: {}
+[19.486056] (-) TimerEvent: {}
+[19.586475] (-) TimerEvent: {}
+[19.686885] (-) TimerEvent: {}
+[19.787242] (-) TimerEvent: {}
+[19.887623] (-) TimerEvent: {}
+[19.988061] (-) TimerEvent: {}
+[20.088510] (-) TimerEvent: {}
+[20.188926] (-) TimerEvent: {}
+[20.289362] (-) TimerEvent: {}
+[20.389773] (-) TimerEvent: {}
+[20.490206] (-) TimerEvent: {}
+[20.590665] (-) TimerEvent: {}
+[20.691126] (-) TimerEvent: {}
+[20.791588] (-) TimerEvent: {}
+[20.892062] (-) TimerEvent: {}
+[20.992544] (-) TimerEvent: {}
+[21.092991] (-) TimerEvent: {}
+[21.193448] (-) TimerEvent: {}
+[21.293846] (-) TimerEvent: {}
+[21.394274] (-) TimerEvent: {}
+[21.494750] (-) TimerEvent: {}
+[21.595167] (-) TimerEvent: {}
+[21.695626] (-) TimerEvent: {}
+[21.796084] (-) TimerEvent: {}
+[21.896526] (-) TimerEvent: {}
+[21.996937] (-) TimerEvent: {}
+[22.097368] (-) TimerEvent: {}
+[22.197808] (-) TimerEvent: {}
+[22.298245] (-) TimerEvent: {}
+[22.398686] (-) TimerEvent: {}
+[22.499076] (-) TimerEvent: {}
+[22.599454] (-) TimerEvent: {}
+[22.699881] (-) TimerEvent: {}
+[22.800287] (-) TimerEvent: {}
+[22.900741] (-) TimerEvent: {}
+[23.001138] (-) TimerEvent: {}
+[23.101536] (-) TimerEvent: {}
+[23.201937] (-) TimerEvent: {}
+[23.302332] (-) TimerEvent: {}
+[23.402742] (-) TimerEvent: {}
+[23.503153] (-) TimerEvent: {}
+[23.603531] (-) TimerEvent: {}
+[23.703942] (-) TimerEvent: {}
+[23.804340] (-) TimerEvent: {}
+[23.904761] (-) TimerEvent: {}
+[24.005152] (-) TimerEvent: {}
+[24.105550] (-) TimerEvent: {}
+[24.205967] (-) TimerEvent: {}
+[24.306376] (-) TimerEvent: {}
+[24.406792] (-) TimerEvent: {}
+[24.507208] (-) TimerEvent: {}
+[24.607596] (-) TimerEvent: {}
+[24.708024] (-) TimerEvent: {}
+[24.802024] (bpx_driver) StdoutLine: {'line': b'[100%] Linking CXX executable bpx_driver_node\n'}
+[24.808112] (-) TimerEvent: {}
+[24.908497] (-) TimerEvent: {}
+[25.008938] (-) TimerEvent: {}
+[25.109361] (-) TimerEvent: {}
+[25.209812] (-) TimerEvent: {}
+[25.310268] (-) TimerEvent: {}
+[25.410653] (-) TimerEvent: {}
+[25.511060] (-) TimerEvent: {}
+[25.611458] (-) TimerEvent: {}
+[25.711837] (-) TimerEvent: {}
+[25.812167] (-) TimerEvent: {}
+[25.912512] (-) TimerEvent: {}
+[26.012940] (-) TimerEvent: {}
+[26.113389] (-) TimerEvent: {}
+[26.176194] (bpx_driver) StdoutLine: {'line': b'[100%] Built target bpx_driver_node\n'}
+[26.202891] (bpx_driver) CommandEnded: {'returncode': 0}
+[26.205108] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'install'}
+[26.213502] (-) TimerEvent: {}
+[26.221916] (bpx_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dog/nav_ros/build/bpx_driver'], 'cwd': '/home/dog/nav_ros/build/bpx_driver', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'dog'), ('SSH_CLIENT', '10.207.82.83 32782 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dog'), ('OLDPWD', '/home/dog'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/dog/nav_ros/build/bpx_driver'), ('SSH_CONNECTION', '10.207.82.83 32782 10.207.82.156 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[26.238799] (bpx_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.239824] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/bpx_driver_node\n'}
+[26.254122] (bpx_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/bpx_driver_node" to "$ORIGIN:/opt/ros/humble/lib"\n'}
+[26.254495] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/lib/bpx_driver/libbpx_sdk_aarch64.so\n'}
+[26.255521] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch\n'}
+[26.256366] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/launch/bpx_driver.launch.py\n'}
+[26.256996] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config\n'}
+[26.257380] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/config/bpx_params.yaml\n'}
+[26.257741] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx\n'}
+[26.258101] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf\n'}
+[26.259832] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/urdf/bpx.urdf\n'}
+[26.260362] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes\n'}
+[26.261118] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/hip.mtl\n'}
+[26.261374] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/calf.mtl\n'}
+[26.261615] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/hip.obj\n'}
+[26.261848] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/bpx_body.obj\n'}
+[26.262497] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/calf.obj\n'}
+[26.263067] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/bpx_body.mtl\n'}
+[26.263660] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/l_thigh.obj\n'}
+[26.263912] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/l_thigh.mtl\n'}
+[26.264143] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/r_thigh.obj\n'}
+[26.264370] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/bpx/meshes/r_thigh.mtl\n'}
+[26.264673] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/package_run_dependencies/bpx_driver\n'}
+[26.264939] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/parent_prefix_path/bpx_driver\n'}
+[26.265194] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/ament_prefix_path.sh\n'}
+[26.265445] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/ament_prefix_path.dsv\n'}
+[26.265694] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/path.sh\n'}
+[26.265937] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/environment/path.dsv\n'}
+[26.266235] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.bash\n'}
+[26.266494] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.sh\n'}
+[26.266744] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.zsh\n'}
+[26.266989] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/local_setup.dsv\n'}
+[26.267235] (bpx_driver) StdoutLine: {'line': b'-- Installing: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.dsv\n'}
+[26.267756] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/ament_index/resource_index/packages/bpx_driver\n'}
+[26.268913] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/cmake/bpx_driverConfig.cmake\n'}
+[26.269178] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/cmake/bpx_driverConfig-version.cmake\n'}
+[26.269362] (bpx_driver) StdoutLine: {'line': b'-- Up-to-date: /home/dog/nav_ros/install/bpx_driver/share/bpx_driver/package.xml\n'}
+[26.269661] (bpx_driver) CommandEnded: {'returncode': 0}
+[26.313887] (-) TimerEvent: {}
+[26.322430] (bpx_driver) JobEnded: {'identifier': 'bpx_driver', 'rc': 0}
+[26.323729] (-) EventReactorShutdown: {}

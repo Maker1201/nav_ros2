@@ -1,0 +1,8 @@
+[ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp: In member function ‘void BpxDriverNode::uprightCallback(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)’:
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:412:21: error: ‘class bpx_sdk::MotionLevelControl’ has no member named ‘setUpright’
+  412 |         if (motion_.setUpright()) {
+      |                     ^~~~~~~~~~
+gmake[2]: *** [CMakeFiles/bpx_driver_node.dir/build.make:76: CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bpx_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

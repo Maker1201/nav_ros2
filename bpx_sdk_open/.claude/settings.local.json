@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://github.com/nlohmann/json/releases/download/v3.11.3/json.hpp\" -o nlohmann/json.hpp)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/yhirose/cpp-httplib/master/httplib.h\" -o cpp-httplib/httplib.h)",
+      "Bash(sshpass *)",
+      "Bash(kill %1)"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (-) JobUnselected: {'identifier': 'bpx_driver'}
+[0.000532] (-) JobUnselected: {'identifier': 'bpx_sdk_examples'}
+[0.001006] (-) JobUnselected: {'identifier': 'nav2'}
+[0.001236] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001511] (-) JobUnselected: {'identifier': 'slam'}
+[0.001610] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001697] (bpx_ekf_odom_ros) JobQueued: {'identifier': 'bpx_ekf_odom_ros', 'dependencies': OrderedDict()}
+[0.001834] (bpx_ekf_odom_ros) JobStarted: {'identifier': 'bpx_ekf_odom_ros'}
+[0.099278] (-) TimerEvent: {}
+[0.199634] (-) TimerEvent: {}
+[0.299995] (-) TimerEvent: {}
+[0.400345] (-) TimerEvent: {}
+[0.500694] (-) TimerEvent: {}
+[0.601095] (-) TimerEvent: {}
+[0.701514] (-) TimerEvent: {}
+[0.801917] (-) TimerEvent: {}
+[0.902358] (-) TimerEvent: {}
+[1.002753] (-) TimerEvent: {}
+[1.103175] (-) TimerEvent: {}
+[1.203575] (-) TimerEvent: {}
+[1.303171] (bpx_ekf_odom_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/bpx_ekf_odom_ros', 'build', '--build-base', '/home/dog/nav_ros/build/bpx_ekf_odom_ros/build', 'install', '--record', '/home/dog/nav_ros/build/bpx_ekf_odom_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dog/nav_ros/bpx_ekf_odom_ros', 'env': {'LANGUAGE': 'en_US:en', 'USER': 'dog', 'SSH_CLIENT': '10.207.82.83 33800 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dog', 'OLDPWD': '/home/dog', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '178', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/dog/nav_ros/build/bpx_ekf_odom_ros', 'SSH_CONNECTION': '10.207.82.83 33800 10.207.82.156 22', 'PYTHONPATH': '/home/dog/nav_ros/build/bpx_ekf_odom_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.307182] (-) TimerEvent: {}
+[1.407419] (-) TimerEvent: {}
+[1.507795] (-) TimerEvent: {}
+[1.608193] (-) TimerEvent: {}
+[1.708605] (-) TimerEvent: {}
+[1.785596] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.786901] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/PKG-INFO\n'}
+[1.787462] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing dependency_links to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/dependency_links.txt\n'}
+[1.787906] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing entry points to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/entry_points.txt\n'}
+[1.788243] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing requirements to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/requires.txt\n'}
+[1.788514] (bpx_ekf_odom_ros) StdoutLine: {'line': b'writing top-level names to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/top_level.txt\n'}
+[1.792187] (bpx_ekf_odom_ros) StdoutLine: {'line': b"reading manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'\n"}
+[1.793821] (bpx_ekf_odom_ros) StdoutLine: {'line': b"writing manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'\n"}
+[1.794448] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running build\n'}
+[1.794643] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.796174] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install\n'}
+[1.796754] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.799910] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.800469] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying resource/bpx_ekf_odom_ros -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index/resource_index/packages\n'}
+[1.800934] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying package.xml -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros\n'}
+[1.801075] (bpx_ekf_odom_ros) StdoutLine: {'line': b'creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros/launch\n'}
+[1.801360] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying launch/ekf_odom.launch.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros/launch\n'}
+[1.801668] (bpx_ekf_odom_ros) StdoutLine: {'line': b'copying launch/ekf_odom_full.launch.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/bpx_ekf_odom_ros/launch\n'}
+[1.801816] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.805199] (bpx_ekf_odom_ros) StdoutLine: {'line': b'Copying ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros-0.1.0-py3.10.egg-info\n'}
+[1.807415] (bpx_ekf_odom_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.808645] (-) TimerEvent: {}
+[1.846942] (bpx_ekf_odom_ros) StdoutLine: {'line': b'Installing csv_player script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros\n'}
+[1.847772] (bpx_ekf_odom_ros) StdoutLine: {'line': b'Installing ekf_odom_node script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros\n'}
+[1.847938] (bpx_ekf_odom_ros) StdoutLine: {'line': b'Installing odom_recorder script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros\n'}
+[1.848079] (bpx_ekf_odom_ros) StdoutLine: {'line': b'Installing walk_measure script to /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/bpx_ekf_odom_ros\n'}
+[1.848561] (bpx_ekf_odom_ros) StdoutLine: {'line': b"writing list of installed files to '/home/dog/nav_ros/build/bpx_ekf_odom_ros/install.log'\n"}
+[1.908828] (-) TimerEvent: {}
+[1.914923] (bpx_ekf_odom_ros) CommandEnded: {'returncode': 0}
+[1.951743] (bpx_ekf_odom_ros) JobEnded: {'identifier': 'bpx_ekf_odom_ros', 'rc': 0}
+[1.953344] (-) EventReactorShutdown: {}

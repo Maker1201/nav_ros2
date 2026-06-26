@@ -1,0 +1,95 @@
+Consolidate compiler generated dependencies of target bpx_driver_node
+[ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:92:70: error: expected ‘}’ at end of input
+   92 |                       std::placeholders::_1, std::placeholders::_2));
+      |                                                                      ^
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:24:43: note: to match this ‘{’
+   24 | class BpxDriverNode : public rclcpp::Node {
+      |                                           ^
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp: In constructor ‘BpxDriverNode::BpxDriverNode()’:
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:39:9: error: ‘robot_ip_’ was not declared in this scope
+   39 |         robot_ip_ = get_parameter("robot_ip").as_string();
+      |         ^~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:43:9: error: ‘cmd_vel_timeout_’ was not declared in this scope
+   43 |         cmd_vel_timeout_ = std::chrono::duration<double>(
+      |         ^~~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:45:9: error: ‘odom_frame_’ was not declared in this scope
+   45 |         odom_frame_ = get_parameter("odom_frame").as_string();
+      |         ^~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:46:9: error: ‘base_frame_’ was not declared in this scope; did you mean ‘basename’?
+   46 |         base_frame_ = get_parameter("base_frame").as_string();
+      |         ^~~~~~~~~~~
+      |         basename
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:47:9: error: ‘imu_frame_’ was not declared in this scope
+   47 |         imu_frame_ = get_parameter("imu_frame").as_string();
+      |         ^~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:48:9: error: ‘publish_odom_tf_’ was not declared in this scope
+   48 |         publish_odom_tf_ = get_parameter("publish_odom_tf").as_bool();
+      |         ^~~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:51:9: error: ‘motion_’ was not declared in this scope
+   51 |         motion_.setRobotIp(robot_ip_.c_str());
+      |         ^~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:64:9: error: ‘joint_state_pub_’ was not declared in this scope
+   64 |         joint_state_pub_ = create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
+      |         ^~~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:65:9: error: ‘imu_pub_’ was not declared in this scope
+   65 |         imu_pub_ = create_publisher<sensor_msgs::msg::Imu>("imu/data", 10);
+      |         ^~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:66:9: error: ‘odom_pub_’ was not declared in this scope
+   66 |         odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("odom", 10);
+      |         ^~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:67:9: error: ‘battery_pub_’ was not declared in this scope
+   67 |         battery_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/battery", 10);
+      |         ^~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:68:9: error: ‘battery_current_pub_’ was not declared in this scope
+   68 |         battery_current_pub_ = create_publisher<std_msgs::msg::Float32>("bpx/battery_current", 10);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:69:9: error: ‘motion_state_pub_’ was not declared in this scope
+   69 |         motion_state_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/motion_state", 10);
+      |         ^~~~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:70:9: error: ‘gait_pub_’ was not declared in this scope
+   70 |         gait_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/gait", 10);
+      |         ^~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:73:9: error: ‘tf_broadcaster_’ was not declared in this scope
+   73 |         tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+      |         ^~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:76:9: error: ‘cmd_vel_sub_’ was not declared in this scope
+   76 |         cmd_vel_sub_ = create_subscription<geometry_msgs::msg::Twist>(
+      |         ^~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:78:39: error: ‘cmdVelCallback’ is not a member of ‘BpxDriverNode’
+   78 |             std::bind(&BpxDriverNode::cmdVelCallback, this, std::placeholders::_1));
+      |                                       ^~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:81:9: error: ‘stand_up_srv_’ was not declared in this scope
+   81 |         stand_up_srv_ = create_service<std_srvs::srv::Trigger>(
+      |         ^~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:83:39: error: ‘standUpCallback’ is not a member of ‘BpxDriverNode’
+   83 |             std::bind(&BpxDriverNode::standUpCallback, this,
+      |                                       ^~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:85:9: error: ‘sit_down_srv_’ was not declared in this scope
+   85 |         sit_down_srv_ = create_service<std_srvs::srv::Trigger>(
+      |         ^~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:87:39: error: ‘sitDownCallback’ is not a member of ‘BpxDriverNode’
+   87 |             std::bind(&BpxDriverNode::sitDownCallback, this,
+      |                                       ^~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:89:9: error: ‘damping_srv_’ was not declared in this scope
+   89 |         damping_srv_ = create_service<std_srvs::srv::Trigger>(
+      |         ^~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:91:39: error: ‘dampingCallback’ is not a member of ‘BpxDriverNode’
+   91 |             std::bind(&BpxDriverNode::dampingCallback, this,
+      |                                       ^~~~~~~~~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:92:70: error: expected ‘}’ at end of input
+   92 |                       std::placeholders::_1, std::placeholders::_2));
+      |                                                                      ^
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:26:47: note: to match this ‘{’
+   26 |     BpxDriverNode() : Node("bpx_driver_node") {
+      |                                               ^
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:42:13: warning: unused variable ‘pub_rate’ [-Wunused-variable]
+   42 |         int pub_rate = get_parameter("state_publish_rate_hz").as_int();
+      |             ^~~~~~~~
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp: At global scope:
+/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:92:70: error: expected unqualified-id at end of input
+   92 |                       std::placeholders::_1, std::placeholders::_2));
+      |                                                                      ^
+gmake[2]: *** [CMakeFiles/bpx_driver_node.dir/build.make:76: CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bpx_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

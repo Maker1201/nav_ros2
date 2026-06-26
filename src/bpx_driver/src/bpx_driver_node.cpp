@@ -5,6 +5,7 @@
 #include <nav_msgs/msg/odometry.hpp>
 #include <std_msgs/msg/u_int8.hpp>
 #include <std_msgs/msg/float32.hpp>
+#include <std_msgs/msg/float64_multi_array.hpp>
 #include <std_srvs/srv/trigger.hpp>
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_ros/transform_broadcaster.h>
@@ -34,6 +35,7 @@ public:
         declare_parameter("base_frame", std::string("base_link"));
         declare_parameter("imu_frame", std::string("imu_link"));
         declare_parameter("publish_odom_tf", true);
+        declare_parameter("use_ekf_odom", true);
 
         // Get parameters
         robot_ip_ = get_parameter("robot_ip").as_string();
@@ -46,6 +48,7 @@ public:
         base_frame_ = get_parameter("base_frame").as_string();
         imu_frame_ = get_parameter("imu_frame").as_string();
         publish_odom_tf_ = get_parameter("publish_odom_tf").as_bool();
+        use_ekf_odom_ = get_parameter("use_ekf_odom").as_bool();
 
         // Initialize SDK
         motion_.setRobotIp(robot_ip_.c_str());
@@ -69,6 +72,11 @@ public:
         motion_state_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/motion_state", 10);
         gait_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/gait", 10);
 
+        // EKF raw data publishers
+        imu_raw_pub_ = create_publisher<sensor_msgs::msg::Imu>("bpx/imu/data_raw", 10);
+        joint_state_raw_pub_ = create_publisher<sensor_msgs::msg::JointState>("bpx/joint_states", 10);
+        joint_torque_pub_ = create_publisher<std_msgs::msg::Float64MultiArray>("bpx/joint_torques", 10);
+
         // TF broadcaster
         tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
 
@@ -90,10 +98,6 @@ public:
             "bpx/damping",
             std::bind(&BpxDriverNode::dampingCallback, this,
                       std::placeholders::_1, std::placeholders::_2));
-        upright_srv_ = create_service<std_srvs::srv::Trigger>(
-            "bpx/upright",
-            std::bind(&BpxDriverNode::uprightCallback, this,
-                      std::placeholders::_1, std::placeholders::_2));
 
         // State publish timer
         auto pub_period = std::chrono::milliseconds(1000 / pub_rate);
@@ -106,6 +110,9 @@ public:
             cmd_period, std::bind(&BpxDriverNode::velTimerCallback, this));
 
         RCLCPP_INFO(get_logger(), "BPX driver node started");
+        if (use_ekf_odom_) {
+            RCLCPP_INFO(get_logger(), "EKF odometry enabled - publishing raw data for EKF fusion");
+        }
     }
 
     ~BpxDriverNode() override {
@@ -159,9 +166,15 @@ private:
     void stateTimerCallback() {
         publishJointStates();
         publishImu();
-        publishOdometry();
         publishBattery();
         publishMotionState();
+
+        // Publish EKF raw data if enabled
+        if (use_ekf_odom_) {
+            publishEKFRawData();
+        } else {
+            publishOdometry();
+        }
     }
 
     // ---------- Publish helpers ----------
@@ -190,6 +203,11 @@ private:
         if (has_tau) msg.effort.assign(tau, tau + 12);
 
         joint_state_pub_->publish(msg);
+
+        // Store for EKF
+        std::copy(pos, pos + 12, joint_pos_);
+        std::copy(vel, vel + 12, joint_vel_);
+        std::copy(tau, tau + 12, joint_tau_);
     }
 
     void publishImu() {
@@ -239,6 +257,63 @@ private:
         }
 
         imu_pub_->publish(msg);
+
+        // Store for EKF
+        if (has_quat) {
+            std::copy(quat, quat + 4, imu_quat_);
+        }
+        if (has_acc) {
+            std::copy(acc, acc + 3, imu_acc_);
+        }
+        if (has_omega) {
+            std::copy(omega, omega + 3, imu_omega_);
+        }
+    }
+
+    void publishEKFRawData() {
+        // Publish raw IMU data for EKF
+        auto imu_msg = sensor_msgs::msg::Imu();
+        imu_msg.header.stamp = now();
+        imu_msg.header.frame_id = imu_frame_;
+        
+        // SDK quaternion is (w, x, y, z)
+        imu_msg.orientation.w = imu_quat_[0];
+        imu_msg.orientation.x = imu_quat_[1];
+        imu_msg.orientation.y = imu_quat_[2];
+        imu_msg.orientation.z = imu_quat_[3];
+        
+        imu_msg.angular_velocity.x = imu_omega_[0];
+        imu_msg.angular_velocity.y = imu_omega_[1];
+        imu_msg.angular_velocity.z = imu_omega_[2];
+        
+        imu_msg.linear_acceleration.x = imu_acc_[0];
+        imu_msg.linear_acceleration.y = imu_acc_[1];
+        imu_msg.linear_acceleration.z = imu_acc_[2];
+        
+        imu_raw_pub_->publish(imu_msg);
+
+        // Publish joint states for EKF
+        auto joint_msg = sensor_msgs::msg::JointState();
+        joint_msg.header.stamp = now();
+        joint_msg.header.frame_id = "";
+        
+        joint_msg.name = {
+            "fl_hip_roll_joint", "fl_hip_pitch_joint", "fl_knee_joint",
+            "fr_hip_roll_joint", "fr_hip_pitch_joint", "fr_knee_joint",
+            "hl_hip_roll_joint", "hl_hip_pitch_joint", "hl_knee_joint",
+            "hr_hip_roll_joint", "hr_hip_pitch_joint", "hr_knee_joint",
+        };
+        
+        joint_msg.position.assign(joint_pos_, joint_pos_ + 12);
+        joint_msg.velocity.assign(joint_vel_, joint_vel_ + 12);
+        joint_msg.effort.assign(joint_tau_, joint_tau_ + 12);
+        
+        joint_state_raw_pub_->publish(joint_msg);
+
+        // Publish joint torques separately
+        auto torque_msg = std_msgs::msg::Float64MultiArray();
+        torque_msg.data.assign(joint_tau_, joint_tau_ + 12);
+        joint_torque_pub_->publish(torque_msg);
     }
 
     void publishOdometry() {
@@ -407,19 +482,6 @@ private:
         }
     }
 
-    void uprightCallback(const std_srvs::srv::Trigger::Request::SharedPtr /*req*/,
-                         std_srvs::srv::Trigger::Response::SharedPtr res) {
-        if (motion_.setUpright()) {
-            pose_x_ = 0.0;
-            pose_y_ = 0.0;
-            res->success = true;
-            res->message = "Upright command sent";
-        } else {
-            res->success = false;
-            res->message = "Failed to send upright command";
-        }
-    }
-
     // ---------- Members ----------
     bpx_sdk::MotionLevelControl motion_;
 
@@ -428,6 +490,7 @@ private:
     std::string base_frame_;
     std::string imu_frame_;
     bool publish_odom_tf_ = true;
+    bool use_ekf_odom_ = true;
 
     // Odometry integration
     double pose_x_ = 0.0;
@@ -441,6 +504,14 @@ private:
     bool velocity_active_ = false;
     std::chrono::duration<double> cmd_vel_timeout_;
 
+    // Sensor data storage
+    float joint_pos_[12] = {0};
+    float joint_vel_[12] = {0};
+    float joint_tau_[12] = {0};
+    float imu_quat_[4] = {0};
+    float imu_acc_[3] = {0};
+    float imu_omega_[3] = {0};
+
     // Publishers
     rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_state_pub_;
     rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr imu_pub_;
@@ -450,6 +521,11 @@ private:
     rclcpp::Publisher<std_msgs::msg::UInt8>::SharedPtr motion_state_pub_;
     rclcpp::Publisher<std_msgs::msg::UInt8>::SharedPtr gait_pub_;
 
+    // EKF raw data publishers
+    rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr imu_raw_pub_;
+    rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_state_raw_pub_;
+    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr joint_torque_pub_;
+
     // Subscriber
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_sub_;
 
@@ -457,7 +533,6 @@ private:
     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr stand_up_srv_;
     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr sit_down_srv_;
     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr damping_srv_;
-    rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr upright_srv_;
 
     // Timers
     rclcpp::TimerBase::SharedPtr state_timer_;

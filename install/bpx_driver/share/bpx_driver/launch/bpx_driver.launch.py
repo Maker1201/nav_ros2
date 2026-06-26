@@ -15,7 +15,7 @@ def generate_launch_description():
 
     robot_ip_arg = DeclareLaunchArgument(
         'robot_ip', default_value='10.21.20.1',
-        description='BPX robot IP address (Wi-Fi: 192.168.0.1 or 10.38.160.85, wired: 10.21.20.1)')
+        description='BPX robot IP address (Wi-Fi: 192.168.0.1 or 10.38.160.85, wired: 10.21.40.1)')
 
     publish_odom_tf_arg = DeclareLaunchArgument(
         'publish_odom_tf', default_value='false',

@@ -1,0 +1,62 @@
+running egg_info
+creating ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info
+writing ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/PKG-INFO
+writing dependency_links to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/dependency_links.txt
+writing entry points to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/entry_points.txt
+writing requirements to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/requires.txt
+writing top-level names to ../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/top_level.txt
+writing manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'
+reading manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'
+writing manifest file '../build/bpx_ekf_odom_ros/bpx_ekf_odom_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dog/nav_ros/build/bpx_ekf_odom_ros/build
+creating /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib
+creating /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/data_loader.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/ekf_core.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/__init__.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/config.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/kinematics.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/adaptive_obs.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/csv_player.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/walk_measure.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/preprocessor.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/contact_detector.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/ekf_odom_node.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/odom_recorder.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+copying bpx_ekf_odom_ros/run_odometry.py -> /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros
+running install
+running install_lib
+creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/data_loader.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/ekf_core.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/__init__.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/config.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/kinematics.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/adaptive_obs.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/csv_player.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/walk_measure.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/preprocessor.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/contact_detector.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/ekf_odom_node.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/odom_recorder.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+copying /home/dog/nav_ros/build/bpx_ekf_odom_ros/build/lib/bpx_ekf_odom_ros/run_odometry.py -> /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/data_loader.py to data_loader.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/ekf_core.py to ekf_core.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/config.py to config.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/kinematics.py to kinematics.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/adaptive_obs.py to adaptive_obs.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/csv_player.py to csv_player.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/walk_measure.py to walk_measure.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/preprocessor.py to preprocessor.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/contact_detector.py to contact_detector.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/ekf_odom_node.py to ekf_odom_node.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/odom_recorder.py to odom_recorder.cpython-310.pyc
+byte-compiling /home/dog/nav_ros/install/bpx_ekf_odom_ros/lib/python3.10/site-packages/bpx_ekf_odom_ros/run_odometry.py to run_odometry.cpython-310.pyc
+running install_data
+creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index
+creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index/resource_index
+creating /home/dog/nav_ros/install/bpx_ekf_odom_ros/share/ament_index/resource_index/packages
+error: can't copy 'resource/bpx_ekf_odom_ros': doesn't exist or not a regular file

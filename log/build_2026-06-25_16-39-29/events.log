@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (-) JobUnselected: {'identifier': 'bpx_sdk_examples'}
+[0.000854] (-) JobUnselected: {'identifier': 'nav2'}
+[0.001056] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001340] (-) JobUnselected: {'identifier': 'slam'}
+[0.001440] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001530] (bpx_driver) JobQueued: {'identifier': 'bpx_driver', 'dependencies': OrderedDict()}
+[0.001669] (bpx_driver) JobStarted: {'identifier': 'bpx_driver'}
+[0.015390] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'cmake'}
+[0.016979] (bpx_driver) JobProgress: {'identifier': 'bpx_driver', 'progress': 'build'}
+[0.018362] (bpx_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dog/nav_ros/build/bpx_driver', '--', '-j6', '-l6'], 'cwd': '/home/dog/nav_ros/build/bpx_driver', 'env': OrderedDict([('LANGUAGE', 'en_US:en'), ('USER', 'dog'), ('SSH_CLIENT', '10.207.82.83 50076 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dog'), ('OLDPWD', '/home/dog'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '137'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/dog/nav_ros/build/bpx_driver'), ('SSH_CONNECTION', '10.207.82.83 50076 10.207.82.156 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099165] (-) TimerEvent: {}
+[0.112545] (bpx_driver) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target bpx_driver_node\n'}
+[0.136884] (bpx_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o\n'}
+[0.199357] (-) TimerEvent: {}
+[0.299805] (-) TimerEvent: {}
+[0.400255] (-) TimerEvent: {}
+[0.500720] (-) TimerEvent: {}
+[0.601170] (-) TimerEvent: {}
+[0.701600] (-) TimerEvent: {}
+[0.802038] (-) TimerEvent: {}
+[0.902447] (-) TimerEvent: {}
+[1.002895] (-) TimerEvent: {}
+[1.103349] (-) TimerEvent: {}
+[1.203804] (-) TimerEvent: {}
+[1.304240] (-) TimerEvent: {}
+[1.404701] (-) TimerEvent: {}
+[1.505148] (-) TimerEvent: {}
+[1.605621] (-) TimerEvent: {}
+[1.706065] (-) TimerEvent: {}
+[1.806511] (-) TimerEvent: {}
+[1.906918] (-) TimerEvent: {}
+[2.007334] (-) TimerEvent: {}
+[2.107708] (-) TimerEvent: {}
+[2.208092] (-) TimerEvent: {}
+[2.308568] (-) TimerEvent: {}
+[2.408989] (-) TimerEvent: {}
+[2.509355] (-) TimerEvent: {}
+[2.609718] (-) TimerEvent: {}
+[2.710116] (-) TimerEvent: {}
+[2.810544] (-) TimerEvent: {}
+[2.910999] (-) TimerEvent: {}
+[3.011397] (-) TimerEvent: {}
+[3.111833] (-) TimerEvent: {}
+[3.212290] (-) TimerEvent: {}
+[3.312700] (-) TimerEvent: {}
+[3.413029] (-) TimerEvent: {}
+[3.513419] (-) TimerEvent: {}
+[3.613826] (-) TimerEvent: {}
+[3.714274] (-) TimerEvent: {}
+[3.814736] (-) TimerEvent: {}
+[3.915203] (-) TimerEvent: {}
+[4.015669] (-) TimerEvent: {}
+[4.116132] (-) TimerEvent: {}
+[4.216628] (-) TimerEvent: {}
+[4.317110] (-) TimerEvent: {}
+[4.417553] (-) TimerEvent: {}
+[4.518012] (-) TimerEvent: {}
+[4.618485] (-) TimerEvent: {}
+[4.718926] (-) TimerEvent: {}
+[4.819387] (-) TimerEvent: {}
+[4.919845] (-) TimerEvent: {}
+[5.020247] (-) TimerEvent: {}
+[5.120640] (-) TimerEvent: {}
+[5.221065] (-) TimerEvent: {}
+[5.321543] (-) TimerEvent: {}
+[5.421956] (-) TimerEvent: {}
+[5.427643] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:92:70: error: expected \xe2\x80\x98}\xe2\x80\x99 at end of input\n'}
+[5.428080] (bpx_driver) StderrLine: {'line': b'   92 |                       std::placeholders::_1, std::placeholders::_2));\n'}
+[5.428259] (bpx_driver) StderrLine: {'line': b'      |                                                                      ^\n'}
+[5.428443] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:24:43: note: to match this \xe2\x80\x98{\xe2\x80\x99\n'}
+[5.428591] (bpx_driver) StderrLine: {'line': b'   24 | class BpxDriverNode : public rclcpp::Node {\n'}
+[5.428733] (bpx_driver) StderrLine: {'line': b'      |                                           ^\n'}
+[5.461505] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp: In constructor \xe2\x80\x98BpxDriverNode::BpxDriverNode()\xe2\x80\x99:\n'}
+[5.461951] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:39:9: error: \xe2\x80\x98robot_ip_\xe2\x80\x99 was not declared in this scope\n'}
+[5.462128] (bpx_driver) StderrLine: {'line': b'   39 |         robot_ip_ = get_parameter("robot_ip").as_string();\n'}
+[5.462284] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[5.481666] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:43:9: error: \xe2\x80\x98cmd_vel_timeout_\xe2\x80\x99 was not declared in this scope\n'}
+[5.481911] (bpx_driver) StderrLine: {'line': b'   43 |         cmd_vel_timeout_ = std::chrono::duration<double>(\n'}
+[5.482114] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~\n'}
+[5.496581] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:45:9: error: \xe2\x80\x98odom_frame_\xe2\x80\x99 was not declared in this scope\n'}
+[5.496871] (bpx_driver) StderrLine: {'line': b'   45 |         odom_frame_ = get_parameter("odom_frame").as_string();\n'}
+[5.497111] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~\n'}
+[5.510256] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:46:9: error: \xe2\x80\x98base_frame_\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98basename\xe2\x80\x99?\n'}
+[5.510556] (bpx_driver) StderrLine: {'line': b'   46 |         base_frame_ = get_parameter("base_frame").as_string();\n'}
+[5.510813] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~\n'}
+[5.511057] (bpx_driver) StderrLine: {'line': b'      |         basename\n'}
+[5.522016] (-) TimerEvent: {}
+[5.523384] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:47:9: error: \xe2\x80\x98imu_frame_\xe2\x80\x99 was not declared in this scope\n'}
+[5.523689] (bpx_driver) StderrLine: {'line': b'   47 |         imu_frame_ = get_parameter("imu_frame").as_string();\n'}
+[5.523942] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~\n'}
+[5.541055] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:48:9: error: \xe2\x80\x98publish_odom_tf_\xe2\x80\x99 was not declared in this scope\n'}
+[5.541353] (bpx_driver) StderrLine: {'line': b'   48 |         publish_odom_tf_ = get_parameter("publish_odom_tf").as_bool();\n'}
+[5.541602] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~\n'}
+[5.552808] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:51:9: error: \xe2\x80\x98motion_\xe2\x80\x99 was not declared in this scope\n'}
+[5.553108] (bpx_driver) StderrLine: {'line': b'   51 |         motion_.setRobotIp(robot_ip_.c_str());\n'}
+[5.553370] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~\n'}
+[5.572130] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:64:9: error: \xe2\x80\x98joint_state_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.572511] (bpx_driver) StderrLine: {'line': b'   64 |         joint_state_pub_ = create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);\n'}
+[5.572777] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~\n'}
+[5.596999] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:65:9: error: \xe2\x80\x98imu_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.597344] (bpx_driver) StderrLine: {'line': b'   65 |         imu_pub_ = create_publisher<sensor_msgs::msg::Imu>("imu/data", 10);\n'}
+[5.597630] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~\n'}
+[5.617177] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:66:9: error: \xe2\x80\x98odom_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.617476] (bpx_driver) StderrLine: {'line': b'   66 |         odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("odom", 10);\n'}
+[5.617735] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[5.622106] (-) TimerEvent: {}
+[5.639641] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:67:9: error: \xe2\x80\x98battery_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.640081] (bpx_driver) StderrLine: {'line': b'   67 |         battery_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/battery", 10);\n'}
+[5.640428] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[5.666214] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:68:9: error: \xe2\x80\x98battery_current_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.666582] (bpx_driver) StderrLine: {'line': b'   68 |         battery_current_pub_ = create_publisher<std_msgs::msg::Float32>("bpx/battery_current", 10);\n'}
+[5.666863] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~~~~\n'}
+[5.690397] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:69:9: error: \xe2\x80\x98motion_state_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.690782] (bpx_driver) StderrLine: {'line': b'   69 |         motion_state_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/motion_state", 10);\n'}
+[5.691068] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[5.704226] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:70:9: error: \xe2\x80\x98gait_pub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.704602] (bpx_driver) StderrLine: {'line': b'   70 |         gait_pub_ = create_publisher<std_msgs::msg::UInt8>("bpx/gait", 10);\n'}
+[5.704876] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[5.721400] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:73:9: error: \xe2\x80\x98tf_broadcaster_\xe2\x80\x99 was not declared in this scope\n'}
+[5.721813] (bpx_driver) StderrLine: {'line': b'   73 |         tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);\n'}
+[5.722097] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~\n'}
+[5.722361] (-) TimerEvent: {}
+[5.753378] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:76:9: error: \xe2\x80\x98cmd_vel_sub_\xe2\x80\x99 was not declared in this scope\n'}
+[5.753781] (bpx_driver) StderrLine: {'line': b'   76 |         cmd_vel_sub_ = create_subscription<geometry_msgs::msg::Twist>(\n'}
+[5.754102] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[5.754367] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:78:39: error: \xe2\x80\x98cmdVelCallback\xe2\x80\x99 is not a member of \xe2\x80\x98BpxDriverNode\xe2\x80\x99\n'}
+[5.754630] (bpx_driver) StderrLine: {'line': b'   78 |             std::bind(&BpxDriverNode::cmdVelCallback, this, std::placeholders::_1));\n'}
+[5.754881] (bpx_driver) StderrLine: {'line': b'      |                                       ^~~~~~~~~~~~~~\n'}
+[5.768621] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:81:9: error: \xe2\x80\x98stand_up_srv_\xe2\x80\x99 was not declared in this scope\n'}
+[5.768973] (bpx_driver) StderrLine: {'line': b'   81 |         stand_up_srv_ = create_service<std_srvs::srv::Trigger>(\n'}
+[5.769243] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~\n'}
+[5.769500] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:83:39: error: \xe2\x80\x98standUpCallback\xe2\x80\x99 is not a member of \xe2\x80\x98BpxDriverNode\xe2\x80\x99\n'}
+[5.769756] (bpx_driver) StderrLine: {'line': b'   83 |             std::bind(&BpxDriverNode::standUpCallback, this,\n'}
+[5.770004] (bpx_driver) StderrLine: {'line': b'      |                                       ^~~~~~~~~~~~~~~\n'}
+[5.783746] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:85:9: error: \xe2\x80\x98sit_down_srv_\xe2\x80\x99 was not declared in this scope\n'}
+[5.784054] (bpx_driver) StderrLine: {'line': b'   85 |         sit_down_srv_ = create_service<std_srvs::srv::Trigger>(\n'}
+[5.784329] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~\n'}
+[5.784605] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:87:39: error: \xe2\x80\x98sitDownCallback\xe2\x80\x99 is not a member of \xe2\x80\x98BpxDriverNode\xe2\x80\x99\n'}
+[5.784859] (bpx_driver) StderrLine: {'line': b'   87 |             std::bind(&BpxDriverNode::sitDownCallback, this,\n'}
+[5.785109] (bpx_driver) StderrLine: {'line': b'      |                                       ^~~~~~~~~~~~~~~\n'}
+[5.799440] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:89:9: error: \xe2\x80\x98damping_srv_\xe2\x80\x99 was not declared in this scope\n'}
+[5.799749] (bpx_driver) StderrLine: {'line': b'   89 |         damping_srv_ = create_service<std_srvs::srv::Trigger>(\n'}
+[5.800010] (bpx_driver) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[5.800262] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:91:39: error: \xe2\x80\x98dampingCallback\xe2\x80\x99 is not a member of \xe2\x80\x98BpxDriverNode\xe2\x80\x99\n'}
+[5.800554] (bpx_driver) StderrLine: {'line': b'   91 |             std::bind(&BpxDriverNode::dampingCallback, this,\n'}
+[5.801072] (bpx_driver) StderrLine: {'line': b'      |                                       ^~~~~~~~~~~~~~~\n'}
+[5.801339] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:92:70: error: expected \xe2\x80\x98}\xe2\x80\x99 at end of input\n'}
+[5.801597] (bpx_driver) StderrLine: {'line': b'   92 |                       std::placeholders::_1, std::placeholders::_2));\n'}
+[5.801842] (bpx_driver) StderrLine: {'line': b'      |                                                                      ^\n'}
+[5.802084] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:26:47: note: to match this \xe2\x80\x98{\xe2\x80\x99\n'}
+[5.802328] (bpx_driver) StderrLine: {'line': b'   26 |     BpxDriverNode() : Node("bpx_driver_node") {\n'}
+[5.802574] (bpx_driver) StderrLine: {'line': b'      |                                               ^\n'}
+[5.802813] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:42:13: warning: unused variable \xe2\x80\x98pub_rate\xe2\x80\x99 [-Wunused-variable]\n'}
+[5.803052] (bpx_driver) StderrLine: {'line': b'   42 |         int pub_rate = get_parameter("state_publish_rate_hz").as_int();\n'}
+[5.803291] (bpx_driver) StderrLine: {'line': b'      |             ^~~~~~~~\n'}
+[5.803529] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp: At global scope:\n'}
+[5.803766] (bpx_driver) StderrLine: {'line': b'/home/dog/nav_ros/src/bpx_driver/src/bpx_driver_node.cpp:92:70: error: expected unqualified-id at end of input\n'}
+[5.804064] (bpx_driver) StderrLine: {'line': b'   92 |                       std::placeholders::_1, std::placeholders::_2));\n'}
+[5.804394] (bpx_driver) StderrLine: {'line': b'      |                                                                      ^\n'}
+[5.822471] (-) TimerEvent: {}
+[5.922791] (-) TimerEvent: {}
+[6.023212] (-) TimerEvent: {}
+[6.123662] (-) TimerEvent: {}
+[6.224126] (-) TimerEvent: {}
+[6.324577] (-) TimerEvent: {}
+[6.424991] (-) TimerEvent: {}
+[6.525410] (-) TimerEvent: {}
+[6.625841] (-) TimerEvent: {}
+[6.726262] (-) TimerEvent: {}
+[6.826680] (-) TimerEvent: {}
+[6.927100] (-) TimerEvent: {}
+[7.027518] (-) TimerEvent: {}
+[7.127945] (-) TimerEvent: {}
+[7.228404] (-) TimerEvent: {}
+[7.328823] (-) TimerEvent: {}
+[7.429215] (-) TimerEvent: {}
+[7.529631] (-) TimerEvent: {}
+[7.630063] (-) TimerEvent: {}
+[7.730493] (-) TimerEvent: {}
+[7.830924] (-) TimerEvent: {}
+[7.850076] (bpx_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bpx_driver_node.dir/build.make:76: CMakeFiles/bpx_driver_node.dir/src/bpx_driver_node.cpp.o] Error 1\n'}
+[7.851095] (bpx_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bpx_driver_node.dir/all] Error 2\n'}
+[7.851462] (bpx_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.854716] (bpx_driver) CommandEnded: {'returncode': 2}
+[7.895162] (bpx_driver) JobEnded: {'identifier': 'bpx_driver', 'rc': 2}
+[7.905948] (-) EventReactorShutdown: {}
